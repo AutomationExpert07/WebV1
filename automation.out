@@ -1,0 +1,162 @@
+2018-03-01 18:23:40 INFO  TestBase:28 - ________________Started execution__________
+2018-03-01 18:23:40 INFO  SignInPage:32 - ----------Clicked on SignIn-------------
+2018-03-01 18:26:24 INFO  TestBase:28 - ________________Started execution__________
+2018-03-01 18:26:24 INFO  SignInPage:32 - ----------Loggin IN to BTC.com-------------
+2018-03-01 18:26:28 INFO  SignInPage:37 - ----------Loggin IN to BTC.com-------------
+2018-03-01 18:27:39 INFO  TestBase:28 - ________________Started execution__________
+2018-03-01 18:27:39 INFO  SignInPage:32 - ----------Loggin IN to BTC.com-------------
+2018-03-01 18:27:43 INFO  SignInPage:37 - ----------at home page-------------
+2018-03-02 09:43:24 INFO  TestBase:30 - ________________Started execution__________
+2018-03-02 09:43:24 INFO  SignInPage:32 - ----------Loggin Into BTC.com-------------
+2018-03-02 09:43:27 INFO  SignInPage:39 - ----------at home page-------------
+2018-03-02 12:40:02 INFO  TestBase:30 - ________________Started execution__________
+2018-03-02 12:40:02 INFO  SignInPage:32 - ----------Loggin Into BTC.com-------------
+2018-03-02 12:40:06 INFO  SignInPage:39 - ----------at home page-------------
+2018-03-02 17:20:44 INFO  TestBase:30 - ________________Started execution__________
+2018-03-02 17:20:44 INFO  SignInPage:32 - ----------Loggin Into BTC.com-------------
+2018-03-02 17:20:48 INFO  SignInPage:39 - ----------at home page-------------
+2018-03-02 19:03:23 INFO  TestBase:29 - ________________Started execution__________
+2018-03-02 19:03:23 INFO  SignInPage:35 - ----------Loggin Into BTC.com-------------
+2018-03-02 19:03:26 INFO  SignInPage:42 - ----------at home page-------------
+2018-03-05 09:55:19 INFO  TestBase:29 - ________________Started execution__________
+2018-03-05 09:55:19 INFO  SignInPage:36 - ----------Loggin Into BTC.com-------------
+2018-03-05 09:55:22 INFO  SignInPage:43 - ----------at home page-------------
+2018-03-05 11:15:44 INFO  HomePage:41 - ___________At Register page__________
+2018-03-05 11:15:45 INFO  HomePage:46 - ___________Registration Completed__________
+2018-03-05 11:16:42 INFO  HomePage:41 - ___________At Register page__________
+2018-03-05 11:16:43 INFO  HomePage:46 - ___________Registration Completed__________
+2018-03-05 13:16:55 INFO  TestBase:29 - ________________Started execution__________
+2018-03-05 13:16:55 INFO  SignInPage:36 - ----------Loggin Into BTC.com-------------
+2018-03-05 13:16:59 INFO  SignInPage:42 - ----------at home page-------------
+2018-03-05 14:15:53 INFO  HomePage:52 - ___________At Register page__________
+2018-03-05 14:15:54 INFO  HomePage:59 - ___________Registration Completed__________
+2018-03-05 15:03:58 INFO  HomePage:52 - ___________At Register page__________
+2018-03-05 15:03:59 INFO  HomePage:59 - ___________Registration Completed__________
+2018-03-05 15:59:27 INFO  HomePage:66 - ___________At Register page__________
+2018-03-05 15:59:28 INFO  HomePage:73 - ___________Registration Completed__________
+2018-03-05 16:13:41 INFO  HomePage:66 - ___________At Register page__________
+2018-03-05 16:13:41 INFO  HomePage:73 - ___________Registration Completed__________
+2018-03-05 16:14:15 INFO  HomePage:66 - ___________At Register page__________
+2018-03-05 16:14:16 INFO  HomePage:73 - ___________Registration Completed__________
+2018-03-05 18:26:27 INFO  HomePage:78 - ___________At Register page__________
+2018-03-05 18:26:29 INFO  HomePage:85 - ___________Registration Completed__________
+2018-03-05 18:26:52 INFO  HomePage:78 - ___________At Register page__________
+2018-03-05 18:27:15 INFO  HomePage:78 - ___________At Register page__________
+2018-03-05 18:31:57 INFO  HomePage:78 - ___________At Register page__________
+2018-03-05 18:32:29 INFO  HomePage:78 - ___________At Register page__________
+2018-03-05 18:33:15 INFO  HomePage:78 - ___________At Register page__________
+2018-03-05 18:35:07 INFO  HomePage:78 - ___________At Register page__________
+2018-03-05 18:35:25 INFO  HomePage:78 - ___________At Register page__________
+2018-03-05 18:36:24 INFO  HomePage:78 - ___________At Register page__________
+2018-03-05 18:37:44 INFO  HomePage:78 - ___________At Register page__________
+2018-03-06 10:35:31 INFO  HomePage:78 - ___________At Register page__________
+2018-03-06 10:36:29 INFO  HomePage:78 - ___________At Register page__________
+2018-03-06 10:46:38 INFO  HomePage:78 - ___________At Register page__________
+2018-03-06 10:46:39 INFO  HomePage:83 - ___________Registration Completed__________
+2018-03-06 10:46:43 INFO  HomePage:78 - ___________At Register page__________
+2018-03-06 10:46:48 INFO  HomePage:78 - ___________At Register page__________
+2018-03-06 11:00:30 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:00:30 INFO  HomePage:87 - ___________Registration Completed__________
+2018-03-06 11:00:45 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:01:00 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:01:00 INFO  HomePage:87 - ___________Registration Completed__________
+2018-03-06 11:02:08 INFO  HomePage:109 - ___________Verified email not entered message__________
+2018-03-06 11:05:01 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:05:22 INFO  HomePage:87 - ___________Registration Completed__________
+2018-03-06 11:06:07 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:06:50 INFO  HomePage:87 - ___________Registration Completed__________
+2018-03-06 11:19:58 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:19:59 INFO  HomePage:89 - ___________Registration Completed__________
+2018-03-06 11:21:34 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:21:35 INFO  HomePage:89 - ___________Registration Completed__________
+2018-03-06 11:52:51 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:54:28 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:54:58 INFO  HomePage:97 - ___________Registration Completed__________
+2018-03-06 11:55:24 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 11:56:08 INFO  HomePage:97 - ___________Registration Completed__________
+2018-03-06 17:16:44 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 17:16:44 INFO  HomePage:96 - ___________Registration Completed__________
+2018-03-06 17:16:50 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 17:16:50 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 17:58:15 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 17:58:46 INFO  HomePage:96 - ___________Registration Completed__________
+2018-03-06 17:59:31 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 18:00:20 INFO  HomePage:96 - ___________Registration Completed__________
+2018-03-06 18:01:06 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 18:01:06 INFO  HomePage:96 - ___________Registration Completed__________
+2018-03-06 18:01:18 INFO  HomePage:82 - ___________At Register page__________
+2018-03-06 18:48:16 INFO  HomePage:79 - ___________At Register page__________
+2018-03-06 18:48:24 INFO  HomePage:93 - ___________Registration Completed__________
+2018-03-06 18:48:28 INFO  TestBase:55 - _____________Register URL is been verified______________
+2018-03-06 18:48:44 INFO  TestBase:59 - _____________Home URL is been verified______________
+2018-03-06 18:49:32 INFO  HomePage:79 - ___________At Register page__________
+2018-03-06 18:49:49 INFO  HomePage:93 - ___________Registration Completed__________
+2018-03-06 18:49:58 INFO  HomePage:79 - ___________At Register page__________
+2018-03-06 18:50:18 INFO  HomePage:93 - ___________Registration Completed__________
+2018-03-06 19:34:06 INFO  HomePage:79 - ___________At Register page__________
+2018-03-06 19:34:17 INFO  TestBase:55 - _____________Register URL is been verified______________
+2018-03-06 19:34:56 INFO  TestBase:59 - _____________Home URL is been verified______________
+2018-03-07 11:05:00 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 11:05:20 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-07 11:05:37 INFO  TestBase:60 - _____________Home URL is been verified______________
+2018-03-07 11:06:22 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 11:06:56 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 11:07:17 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 11:07:52 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 11:51:21 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-07 11:51:21 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-07 11:52:37 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-07 11:52:38 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-07 11:54:30 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-07 11:54:30 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-07 11:57:53 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-07 11:57:54 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-07 12:00:26 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-07 12:00:27 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-07 12:00:54 INFO  TestBase:38 - _____________Home URL is been verified______________
+2018-03-07 12:50:07 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 12:50:08 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-07 12:50:13 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 12:50:14 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 12:50:14 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 12:50:15 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:23:11 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:23:12 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-07 14:23:17 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:23:18 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:23:18 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:23:19 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:39:39 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:39:39 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-07 14:39:45 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:39:45 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:39:46 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:39:46 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:40:39 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:40:44 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-07 14:42:50 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:42:51 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-07 14:42:56 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:42:57 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:42:57 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:42:58 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:44:57 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:44:58 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-07 14:45:03 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:45:04 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:45:04 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:45:05 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:50:38 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:50:38 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-07 14:50:43 INFO  TestBase:60 - _____________Home URL is been verified______________
+2018-03-07 14:50:45 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:50:46 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:50:47 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 14:50:47 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 16:59:01 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 16:59:01 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-07 16:59:07 INFO  TestBase:60 - _____________Home URL is been verified______________
+2018-03-07 16:59:09 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 16:59:10 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 16:59:11 INFO  HomePage:87 - ___________At Register page__________
+2018-03-07 16:59:11 INFO  HomePage:87 - ___________At Register page__________
