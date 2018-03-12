@@ -5,8 +5,11 @@
     <classes>
       <class name="btcTestSuite.TC_CreateWallet">
         <methods>
+          <include name="afterMethod"/>
           <include name="withBlankUserID"/>
           <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
         </methods>
       </class> <!-- btcTestSuite.TC_CreateWallet -->
     </classes>

@@ -1,7 +1,9 @@
 package btcTestSuite;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -17,14 +19,15 @@ public class TC_CreateWallet extends TestBase{
 	RegisterPage registerpage;
 	HomePage homePage;
 	String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+	String correctUsrNme = "sohaibcool@gmail.com";
 	String s="sohaibcool"+ timeStamp; 
 	String username="Sohaibcool"+timeStamp+"@gmail.com";
 	String password="Allah@123";
-	String JunkUserid ="so!#$%^&*@blocktrail.com";
+	String JunkUserid ="so!#$%^&*!#$%^&*:@?uyfgwuihfwefhpowefhjpewhfpiwhfpowehfpoweihfowehifo;weifhpioef@blocktrail.com";
 	String blank="";
 	
 	@BeforeTest
-	public void setUp() {
+	public void setUp() throws IOException {
 	log.info("initialzing all the variable and methods");
 	init();
 	}
@@ -50,11 +53,14 @@ public class TC_CreateWallet extends TestBase{
 	
 	@Test(priority=1)
 	public void createWallet() {
+		log.info("___________createing Wallet__________");
 		registerpage = new RegisterPage(driver);
 		registerpage.createAccount(username, password);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		Assert.assertEquals(RegisterPage.registerURL, "https://wallet.btc.com/#/setup/register");
 		log.info("_____________Register URL is been verified______________");
 		registerpage.confirmPassword(password);
+		
 		registerpage.downloadWalletbkup();
 		Assert.assertEquals(registerpage.HomeWalletPage, "https://wallet.btc.com/#/wallet");
 		log.info("_____________Home URL is been verified______________");
@@ -83,6 +89,7 @@ public class TC_CreateWallet extends TestBase{
 	
 	@Test(priority=2)
 	public void withBlankUserID() {
+		log.info("___________createing Wallet with Blank User ID__________");
 		registerpage = new RegisterPage(driver);
 		registerpage.clickCreateAccLink();
 		registerpage.createAccount(blank, password);
@@ -111,6 +118,7 @@ public class TC_CreateWallet extends TestBase{
 	
 	@Test(priority=3)
 	public void withBlankPassword() {
+		log.info("___________createing Wallet with Blank Password__________");
 		registerpage = new RegisterPage(driver);
 		registerpage.clickCreateAccLink();
 		registerpage.createAccount(username, blank);
@@ -139,6 +147,7 @@ public class TC_CreateWallet extends TestBase{
 	
 	@Test(priority=4)
 	public void withBlankUserandPassword() {
+		log.info("___________createing Wallet with Blank User ID and Blank Password__________");
 		registerpage = new RegisterPage(driver);
 		registerpage.clickCreateAcc();
 		registerpage.createAccount(blank, blank);
@@ -168,16 +177,17 @@ public class TC_CreateWallet extends TestBase{
 	}*/
 	
 	@Test(priority=5)
-	public void withJunkUserandPassword() {
+	public void withJunkLongUserandPassword() {
+		log.info("___________createing Wallet with Speical Characters__________");
 		registerpage = new RegisterPage(driver);
 		registerpage.clickCreateAcc();
 		registerpage.createAccount(JunkUserid, password);
-		registerpage.verifyPasswordErrormesg();
-		registerpage.verifyPasswordErrormesg();
+		registerpage.verifyemailErrormesg();
+
 }
 	
-	/*@AfterClass
+	@AfterClass
 	public void endTest() {
-		driver.quit();
-	}*/
+	//	driver.quit();
+	}
 }

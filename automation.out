@@ -160,3 +160,350 @@
 2018-03-07 16:59:10 INFO  HomePage:87 - ___________At Register page__________
 2018-03-07 16:59:11 INFO  HomePage:87 - ___________At Register page__________
 2018-03-07 16:59:11 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:16:09 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 10:16:10 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 10:21:11 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:21:11 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-08 10:21:15 INFO  TestBase:60 - _____________Home URL is been verified______________
+2018-03-08 10:21:17 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:21:18 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:21:18 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:21:18 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:49 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:49 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:49 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-08 10:24:50 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-08 10:24:54 INFO  TestBase:60 - _____________Home URL is been verified______________
+2018-03-08 10:24:55 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:56 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:56 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:56 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:57 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:57 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:57 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:24:58 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:28:28 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:28:48 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-08 10:29:09 INFO  TestBase:60 - _____________Home URL is been verified______________
+2018-03-08 10:29:37 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:30:29 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:31:18 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:31:54 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:34:49 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:34:50 INFO  TestBase:56 - _____________Register URL is been verified______________
+2018-03-08 10:34:54 INFO  TestBase:60 - _____________Home URL is been verified______________
+2018-03-08 10:34:56 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:34:57 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:34:58 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:34:58 INFO  HomePage:87 - ___________At Register page__________
+2018-03-08 10:38:59 INFO  TestBase:53 - ___________createing Wallet__________
+2018-03-08 10:39:00 INFO  TestBase:57 - _____________Register URL is been verified______________
+2018-03-08 10:39:04 INFO  TestBase:61 - _____________Home URL is been verified______________
+2018-03-08 10:39:05 INFO  TestBase:87 - ___________createing Wallet with Blank User ID__________
+2018-03-08 10:39:06 INFO  TestBase:116 - ___________createing Wallet with Blank Password__________
+2018-03-08 10:39:07 INFO  TestBase:145 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-08 10:39:08 INFO  TestBase:176 - ___________createing Wallet with Speical Characters__________
+2018-03-08 10:56:59 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 10:56:59 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 11:27:32 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 11:27:32 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 11:29:50 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 11:29:50 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 11:33:57 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 11:33:58 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 11:36:03 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 11:36:04 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 11:39:38 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 11:39:38 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 11:44:03 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 11:44:04 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 11:49:14 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 11:49:15 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:07:44 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:07:45 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:12:01 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:12:01 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:15:54 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:15:54 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:16:34 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:16:34 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:17:32 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:17:33 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:27:14 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:27:14 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:30:49 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:30:49 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:31:49 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:31:49 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:32:48 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:32:48 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:45:02 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:45:03 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:50:35 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:50:36 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:52:07 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:52:07 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:52:08 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:52:08 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:53:01 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:53:02 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:53:33 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:53:33 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 12:57:53 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 12:57:54 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 14:46:46 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 14:46:46 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 14:46:50 INFO  TestBase:58 - _____________Home URL is been verified______________
+2018-03-08 14:47:12 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 14:47:12 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 14:47:28 INFO  TestBase:58 - _____________Home URL is been verified______________
+2018-03-08 15:22:13 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 15:22:14 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 15:22:17 INFO  TestBase:67 - _____________Home URL is been verified______________
+2018-03-08 15:26:33 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 15:26:33 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 15:26:37 INFO  TestBase:73 - _____________Home URL is been verified______________
+2018-03-08 15:26:58 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 15:26:58 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 15:27:59 INFO  TestBase:73 - _____________Home URL is been verified______________
+2018-03-08 15:28:19 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 15:28:20 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 15:29:18 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 15:29:18 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 15:32:05 INFO  TestBase:73 - _____________Home URL is been verified______________
+2018-03-08 15:32:25 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 15:32:25 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 15:43:20 INFO  TestBase:74 - _____________Home URL is been verified______________
+2018-03-08 15:46:53 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 15:46:53 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 15:50:42 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 15:50:42 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 15:54:15 INFO  TestBase:76 - _____________Home URL is been verified______________
+2018-03-08 15:54:29 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 15:54:29 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 16:07:25 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 16:07:25 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 16:10:05 INFO  TestBase:90 - _____________Home URL is been verified______________
+2018-03-08 16:11:37 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 16:11:38 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 16:12:06 INFO  TestBase:92 - _____________Home URL is been verified______________
+2018-03-08 18:03:35 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 18:03:35 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 18:04:06 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-08 18:04:07 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-08 18:05:53 INFO  TestBase:53 - ___________createing Wallet__________
+2018-03-08 18:05:54 INFO  TestBase:57 - _____________Register URL is been verified______________
+2018-03-08 18:05:57 INFO  TestBase:61 - _____________Home URL is been verified______________
+2018-03-08 18:05:59 INFO  TestBase:87 - ___________createing Wallet with Blank User ID__________
+2018-03-08 18:06:00 INFO  TestBase:116 - ___________createing Wallet with Blank Password__________
+2018-03-08 18:06:00 INFO  TestBase:145 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-08 18:06:01 INFO  TestBase:176 - ___________createing Wallet with Speical Characters__________
+2018-03-09 10:39:59 INFO  TestBase:53 - ___________createing Wallet__________
+2018-03-09 10:40:04 INFO  TestBase:87 - ___________createing Wallet with Blank User ID__________
+2018-03-09 10:40:09 INFO  TestBase:116 - ___________createing Wallet with Blank Password__________
+2018-03-09 10:40:15 INFO  TestBase:145 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-09 10:40:20 INFO  TestBase:176 - ___________createing Wallet with Speical Characters__________
+2018-03-11 16:21:37 INFO  TestBase:53 - ___________createing Wallet__________
+2018-03-11 16:21:57 INFO  TestBase:87 - ___________createing Wallet with Blank User ID__________
+2018-03-11 16:22:02 INFO  TestBase:116 - ___________createing Wallet with Blank Password__________
+2018-03-11 16:22:07 INFO  TestBase:145 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 16:22:12 INFO  TestBase:176 - ___________createing Wallet with Speical Characters__________
+2018-03-11 16:23:31 INFO  TestBase:53 - ___________createing Wallet__________
+2018-03-11 16:23:31 INFO  TestBase:57 - _____________Register URL is been verified______________
+2018-03-11 16:23:36 INFO  TestBase:61 - _____________Home URL is been verified______________
+2018-03-11 16:23:38 INFO  TestBase:87 - ___________createing Wallet with Blank User ID__________
+2018-03-11 16:23:39 INFO  TestBase:116 - ___________createing Wallet with Blank Password__________
+2018-03-11 16:23:40 INFO  TestBase:145 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 16:23:40 INFO  TestBase:176 - ___________createing Wallet with Speical Characters__________
+2018-03-11 16:32:14 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 16:32:15 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 16:33:17 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 16:33:17 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 16:40:00 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 16:40:01 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 16:43:17 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 16:43:17 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 16:47:05 INFO  TestBase:53 - ___________createing Wallet__________
+2018-03-11 16:47:06 INFO  TestBase:57 - _____________Register URL is been verified______________
+2018-03-11 16:47:10 INFO  TestBase:61 - _____________Home URL is been verified______________
+2018-03-11 16:47:11 INFO  TestBase:87 - ___________createing Wallet with Blank User ID__________
+2018-03-11 16:47:13 INFO  TestBase:116 - ___________createing Wallet with Blank Password__________
+2018-03-11 16:47:13 INFO  TestBase:145 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 16:47:14 INFO  TestBase:176 - ___________createing Wallet with Speical Characters__________
+2018-03-11 16:49:07 INFO  TestBase:29 - ________________Started execution__________
+2018-03-11 16:49:07 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 16:49:07 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 16:50:16 INFO  TestBase:24 - ________________Started execution__________
+2018-03-11 16:50:16 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 16:50:16 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 16:51:00 INFO  TestBase:28 - initialzing all the variable and methods
+2018-03-11 16:51:00 INFO  TestBase:45 - creating object ofchrome
+2018-03-11 16:51:02 INFO  TestBase:55 - opening the URL
+2018-03-11 16:51:07 INFO  TestBase:53 - ___________createing Wallet__________
+2018-03-11 16:51:07 INFO  TestBase:57 - _____________Register URL is been verified______________
+2018-03-11 16:51:11 INFO  TestBase:61 - _____________Home URL is been verified______________
+2018-03-11 16:51:13 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 16:51:14 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 16:51:18 INFO  TestBase:87 - ___________createing Wallet with Blank User ID__________
+2018-03-11 16:51:19 INFO  TestBase:116 - ___________createing Wallet with Blank Password__________
+2018-03-11 16:51:19 INFO  TestBase:145 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 16:51:20 INFO  TestBase:176 - ___________createing Wallet with Speical Characters__________
+2018-03-11 18:45:11 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 18:45:50 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 18:46:24 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 18:46:47 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 18:47:30 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 18:48:33 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 18:48:59 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 20:23:40 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 20:23:45 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 20:23:46 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 20:23:46 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 20:23:47 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 20:23:48 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 20:23:48 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 20:26:23 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 20:27:20 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 20:27:38 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 20:27:51 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 20:28:29 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 20:28:34 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 20:28:45 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 20:43:32 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 20:43:38 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 20:43:39 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 20:43:39 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 20:43:40 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 20:43:40 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 20:43:41 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 20:45:15 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 20:45:20 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 20:45:21 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 20:45:21 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 20:45:22 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 20:45:23 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 20:45:23 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 20:46:22 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 20:46:27 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 20:47:38 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 20:47:39 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 20:47:51 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 20:48:18 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 20:48:23 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 20:57:11 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 20:57:16 INFO  TestBase:29 - initialzing all the variable and methods
+2018-03-11 20:57:18 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 20:57:21 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 20:57:22 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 20:57:26 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 20:57:27 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 20:57:27 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 20:57:28 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 20:57:28 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 20:57:29 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:01:06 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:03:24 INFO  TestBase:29 - initialzing all the variable and methods
+2018-03-11 21:03:58 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:04:04 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 21:04:05 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 21:04:19 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 21:04:27 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 21:04:28 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:05:02 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:05:08 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:05:12 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:09:52 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:09:58 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 21:09:59 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 21:09:59 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:10:00 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:10:00 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:10:01 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:21:52 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:21:59 INFO  TestBase:29 - initialzing all the variable and methods
+2018-03-11 21:22:01 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:22:06 INFO  SignInPage:42 - ----------Loggin Into BTC.com-------------
+2018-03-11 21:22:07 INFO  SignInPage:46 - ----------at home page-------------
+2018-03-11 21:22:11 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 21:22:11 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 21:22:12 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:22:13 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:22:13 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:22:14 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:23:03 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:23:08 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 21:23:08 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 21:23:09 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:23:10 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:23:10 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:23:11 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:24:18 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:24:23 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 21:24:30 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 21:27:50 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:27:56 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:28:02 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:28:13 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:29:14 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:29:19 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 21:29:20 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 21:29:21 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:29:21 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:29:22 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:29:22 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:31:41 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:31:48 INFO  TestBase:54 - ___________createing Wallet__________
+2018-03-11 21:31:48 INFO  TestBase:58 - _____________Register URL is been verified______________
+2018-03-11 21:31:49 INFO  TestBase:88 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:31:50 INFO  TestBase:117 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:31:50 INFO  TestBase:146 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:31:51 INFO  TestBase:177 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:34:33 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:34:39 INFO  TestBase:55 - ___________createing Wallet__________
+2018-03-11 21:34:39 INFO  TestBase:60 - _____________Register URL is been verified______________
+2018-03-11 21:34:45 INFO  TestBase:91 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:34:45 INFO  TestBase:120 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:34:46 INFO  TestBase:149 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:34:46 INFO  TestBase:180 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:35:25 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:35:30 INFO  TestBase:55 - ___________createing Wallet__________
+2018-03-11 21:35:31 INFO  TestBase:60 - _____________Register URL is been verified______________
+2018-03-11 21:35:36 INFO  TestBase:91 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:35:37 INFO  TestBase:120 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:35:37 INFO  TestBase:149 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:35:38 INFO  TestBase:180 - ___________createing Wallet with Speical Characters__________
+2018-03-11 21:37:53 INFO  TestBase:138 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-11 21:37:58 INFO  TestBase:56 - ___________createing Wallet__________
+2018-03-11 21:37:58 INFO  TestBase:61 - _____________Register URL is been verified______________
+2018-03-11 21:38:04 INFO  TestBase:92 - ___________createing Wallet with Blank User ID__________
+2018-03-11 21:38:05 INFO  TestBase:121 - ___________createing Wallet with Blank Password__________
+2018-03-11 21:38:05 INFO  TestBase:150 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-11 21:38:05 INFO  TestBase:181 - ___________createing Wallet with Speical Characters__________
+2018-03-12 07:14:50 INFO  TestBase:127 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-12 07:14:58 INFO  TestBase:56 - ___________createing Wallet__________
+2018-03-12 07:14:59 INFO  TestBase:92 - ___________createing Wallet with Blank User ID__________
+2018-03-12 07:15:00 INFO  TestBase:121 - ___________createing Wallet with Blank Password__________
+2018-03-12 07:15:00 INFO  TestBase:150 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-12 07:15:00 INFO  TestBase:181 - ___________createing Wallet with Speical Characters__________
+2018-03-12 10:25:14 INFO  TestBase:127 - navigating to :-https://wallet.btc.com/#/setup/register
+2018-03-12 10:25:21 INFO  TestBase:56 - ___________createing Wallet__________
+2018-03-12 10:25:22 INFO  TestBase:61 - _____________Register URL is been verified______________
+2018-03-12 10:25:27 INFO  TestBase:92 - ___________createing Wallet with Blank User ID__________
+2018-03-12 10:25:28 INFO  TestBase:121 - ___________createing Wallet with Blank Password__________
+2018-03-12 10:25:28 INFO  TestBase:150 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-12 10:25:29 INFO  TestBase:181 - ___________createing Wallet with Speical Characters__________
+2018-03-12 10:31:00 INFO  TestBase:127 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-03-12 10:31:06 INFO  TestBase:56 - ___________createing Wallet__________
+2018-03-12 10:31:07 INFO  TestBase:61 - _____________Register URL is been verified______________
+2018-03-12 10:31:13 INFO  TestBase:92 - ___________createing Wallet with Blank User ID__________
+2018-03-12 10:31:13 INFO  TestBase:121 - ___________createing Wallet with Blank Password__________
+2018-03-12 10:31:13 INFO  TestBase:150 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-12 10:31:14 INFO  TestBase:181 - ___________createing Wallet with Speical Characters__________
+2018-03-12 10:34:29 INFO  TestBase:127 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-03-12 10:34:33 INFO  TestBase:56 - ___________createing Wallet__________
+2018-03-12 10:34:34 INFO  TestBase:61 - _____________Register URL is been verified______________
+2018-03-12 10:34:37 INFO  TestBase:66 - _____________Home URL is been verified______________
+2018-03-12 10:34:39 INFO  TestBase:92 - ___________createing Wallet with Blank User ID__________
+2018-03-12 10:34:40 INFO  TestBase:121 - ___________createing Wallet with Blank Password__________
+2018-03-12 10:34:40 INFO  TestBase:150 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-03-12 10:34:41 INFO  TestBase:181 - ___________createing Wallet with Speical Characters__________

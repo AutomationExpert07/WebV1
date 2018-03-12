@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 	public static final Logger log= Logger.getLogger(SignInPage.class.getName());
 	WebDriver driver;
-	
+	//homeURL = "https://wallet.btc.com/#/wallet";
 	@FindBy(xpath="//a[contains(text(),'Logout')]")
 	WebElement Logout;
 	

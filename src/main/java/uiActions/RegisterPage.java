@@ -84,7 +84,6 @@ public class RegisterPage {
 	
 	public void createAccount(String name, String pws)
 	{
-		log.info("___________At Register page__________");
 		email.clear();
 		email.sendKeys(name);
 		password.clear();
