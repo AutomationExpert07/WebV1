@@ -1,11 +1,14 @@
 package uiActions;
 
+import java.util.Iterator;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
 public class RegisterPage {
@@ -19,6 +22,7 @@ public class RegisterPage {
 	public String emailErrorMsg ="Please enter your login details";
 	public String passwordErrorMsg = "Please enter your password";
 	public String IagreeNotSelected = "You must agree to the terms of service";
+	public String termsOfServiceURL = "https://btc.com/legal";
 	//public String 
 	
 	@FindBy(xpath="//input[@name='email']")
@@ -67,11 +71,19 @@ public class RegisterPage {
 	@FindBy(xpath="//div[contains(text(),'Please enter your password')]")
 	WebElement EnterYourPasswordWarning;
 	
+	@FindBy(xpath="//a[contains(text(),'terms of service')]")
+	WebElement termsofservice;
+	
+	
 	public RegisterPage(WebDriver driver) {
 		this.driver= driver;
 		PageFactory.initElements(driver, this);
 	}
 
+	public void ClickTermsofserviceLink() {
+	termsofservice.click();
+	}
+	
 	public void clickCreateAccLink()
 	{
 		CreateNewWalletLink.click();

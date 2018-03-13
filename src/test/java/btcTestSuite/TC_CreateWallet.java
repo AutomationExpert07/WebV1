@@ -3,8 +3,10 @@ package btcTestSuite;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
@@ -68,7 +70,7 @@ public class TC_CreateWallet extends TestBase{
 		homePage.Logout();
 	}
 	
-	/*	TC Objective: Verify error message for wrong email id while Creating Wallet
+/*		TC Objective: Verify error message for wrong email id while Creating Wallet
 	====================================================================
 	1. Launch the Browser
 	2. Navigate to "BTC.com"
@@ -96,7 +98,7 @@ public class TC_CreateWallet extends TestBase{
 		registerpage.verifyemailErrormesg();
 	}
 
-	/*	TC Objective: Verify error message for wrong password while Creating Wallet
+/*		TC Objective: Verify error message for wrong password while Creating Wallet
 	====================================================================
 	1. Launch the Browser
 	2. Navigate to "BTC.com"
@@ -125,7 +127,7 @@ public class TC_CreateWallet extends TestBase{
 		registerpage.verifyPasswordErrormesg();
 }
 	
-	/*	TC Objective: Verify error message with both userid and password as blank
+/*		TC Objective: Verify error message with both userid and password as blank
 	=======================================================================
 	1. Launch the Browser
 	2. Navigate to "BTC.com"
@@ -155,7 +157,7 @@ public class TC_CreateWallet extends TestBase{
 		registerpage.verifyPasswordErrormesg();
 }
 	
-	/*	TC Objective: Verify error message with junk userid and password as blank
+/*		TC Objective: Verify error message with junk userid and password as blank
 	=======================================================================
 	1. Launch the Browser
 	2. Navigate to "BTC.com"
@@ -172,9 +174,9 @@ public class TC_CreateWallet extends TestBase{
 	Input Data/Test Data:
 	---------------------
 	1. user name:abce!#$%^&@blocktrail.com
-	2. password: !@#$%^&12
+	2. password: !@#$%^&12*/
 
-	}*/
+//	}
 	
 	@Test(priority=5)
 	public void withJunkLongUserandPassword() {
@@ -183,11 +185,21 @@ public class TC_CreateWallet extends TestBase{
 		registerpage.clickCreateAcc();
 		registerpage.createAccount(JunkUserid, password);
 		registerpage.verifyemailErrormesg();
-
 }
+	@Test(priority=6)
+	public void termsOfServiceLink() {
+		log.info("___________Checking the link is navigating to right page__________");
+		registerpage.ClickTermsofserviceLink();
+		Iterator<String> itr = getAllWindows();
+		String parentWindow = itr.next();
+		String childWindow = itr.next();
+		driver.switchTo().window(childWindow);
+		Assert.assertEquals(driver.getCurrentUrl(), registerpage.termsOfServiceURL);
+		driver.switchTo().window(parentWindow);
+	}
 	
 	@AfterClass
 	public void endTest() {
-	//	driver.quit();
+	driver.quit();
 	}
 }
