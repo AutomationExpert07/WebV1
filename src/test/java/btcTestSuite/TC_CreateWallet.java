@@ -24,9 +24,10 @@ public class TC_CreateWallet extends TestBase{
 	String correctUsrNme = "sohaibcool@gmail.com";
 	String s="sohaibcool"+ timeStamp; 
 	String username="Sohaibcool"+timeStamp+"@gmail.com";
-	String password="Allah@123";
+	String password="Hello@123";
 	String JunkUserid ="so!#$%^&*!#$%^&*:@?uyfgwuihfwefhpowefhjpewhfpiwhfpowehfpoweihfowehifo;weifhpioef@blocktrail.com";
 	String blank="";
+	String confrimWrongPsw = "Yello@123";
 	
 	@BeforeTest
 	public void setUp() throws IOException {
@@ -53,21 +54,33 @@ public class TC_CreateWallet extends TestBase{
 	1. user name:sohaibcool@gmail.com
 	2. password: Allah*/
 	
-	@Test(priority=1)
+	@Test(priority=7)
 	public void createWallet() {
 		log.info("___________createing Wallet__________");
 		registerpage = new RegisterPage(driver);
+		registerpage.clickCreateAccLink();
 		registerpage.createAccount(username, password);
+		//registerpage.passwordCrack();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		Assert.assertEquals(RegisterPage.registerURL, "https://wallet.btc.com/#/setup/register");
 		log.info("_____________Register URL is been verified______________");
 		registerpage.confirmPassword(password);
-		
 		registerpage.downloadWalletbkup();
 		Assert.assertEquals(registerpage.HomeWalletPage, "https://wallet.btc.com/#/wallet");
 		log.info("_____________Home URL is been verified______________");
 		homePage = new HomePage(driver);
 		homePage.Logout();
+	}
+	
+	@Test(priority=1)
+	public void ConfirmWithWorngPassword() {
+		log.info("___________createing Wallet__________");
+		registerpage = new RegisterPage(driver);
+		registerpage.clickCreateAccLink();
+		registerpage.createAccount(username, password);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		registerpage.confirmPassword(confrimWrongPsw);
+		Assert.assertEquals(registerpage.confirmWrongPassword(), "The passwords don't match");
 	}
 	
 /*		TC Objective: Verify error message for wrong email id while Creating Wallet
@@ -186,6 +199,10 @@ public class TC_CreateWallet extends TestBase{
 		registerpage.createAccount(JunkUserid, password);
 		registerpage.verifyemailErrormesg();
 }
+	
+	/*		TC Objective: Verify termsOfService is navigating to right page
+	=======================================================================
+	*/
 	@Test(priority=6)
 	public void termsOfServiceLink() {
 		log.info("___________Checking the link is navigating to right page__________");
@@ -195,6 +212,8 @@ public class TC_CreateWallet extends TestBase{
 		String childWindow = itr.next();
 		driver.switchTo().window(childWindow);
 		Assert.assertEquals(driver.getCurrentUrl(), registerpage.termsOfServiceURL);
+		driver.findElement(By.xpath("//h1[contains(text(),'BTC.COM – TERMS OF USE')]")).isDisplayed();
+		driver.close();
 		driver.switchTo().window(parentWindow);
 	}
 	

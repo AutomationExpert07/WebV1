@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="btcTestSuite.TC_CreateWallet">
+      <class name="btcTestSuite.SignInWallet3">
         <methods>
-          <include name="afterMethod"/>
-          <include name="withBlankUserID"/>
           <include name="setUp"/>
-          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
           <include name="endTest"/>
+          <include name="trasactionVerify1234"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- btcTestSuite.TC_CreateWallet -->
+      </class> <!-- btcTestSuite.SignInWallet3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

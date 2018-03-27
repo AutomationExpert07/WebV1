@@ -10,8 +10,12 @@ public class SignInPage {
 	public static final Logger log= Logger.getLogger(SignInPage.class.getName());
 	WebDriver driver;
 	
+	public String usrID ="sohaibcool11@gmail.com";
+	public String password1="Hello@123";
+	
+	
 	@FindBy(xpath="//input[@name='username']")
-		WebElement email;
+	WebElement email;
 	
 	@FindBy(xpath="//input[@name='password']")
 	WebElement password;
@@ -43,7 +47,7 @@ public class SignInPage {
 		email.sendKeys(userName);
 		password.sendKeys(Password);
 		SignInButton.click();
-		log.info("----------at home page-------------");
+		log.info("----------At home page-------------");
 	}
 	
 	public void CheckPwswarningMesg() {

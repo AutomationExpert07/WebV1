@@ -1,19 +1,15 @@
 package uiActions;
 
-import java.util.Iterator;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
-import org.testng.annotations.AfterClass;
+import org.testng.Reporter;
 
 public class RegisterPage {
 	
-	public static final Logger log= Logger.getLogger(HomePage.class.getName());
+	public static final Logger log= Logger.getLogger(RegisterPage.class.getName());
 	WebDriver driver;
 	
 	public static final String registerURL = "https://wallet.btc.com/#/setup/register";
@@ -23,14 +19,13 @@ public class RegisterPage {
 	public String passwordErrorMsg = "Please enter your password";
 	public String IagreeNotSelected = "You must agree to the terms of service";
 	public String termsOfServiceURL = "https://btc.com/legal";
-	//public String 
+	public String wrongPasswordmatch = "The passwords don't match";
 	
 	@FindBy(xpath="//input[@name='email']")
-		WebElement email;
+	WebElement email;
 	
 	@FindBy(xpath="//input[@name='password']")
 	WebElement password;
-	
 	
 	@FindBy(xpath="//a[contains(text(),'Create Wallet')]")
 	WebElement CreateNewWalletLink;
@@ -74,6 +69,11 @@ public class RegisterPage {
 	@FindBy(xpath="//a[contains(text(),'terms of service')]")
 	WebElement termsofservice;
 	
+	@FindBy(xpath="//div[@ng-if='errMsg']")
+	WebElement passwordDontMatch;
+	
+	@FindBy(xpath="//span[@translate='PASSWORD_TIME_TO_CRACK' and contains(text(), 'estimated to take ')]")
+	WebElement passwordStreght;
 	
 	public RegisterPage(WebDriver driver) {
 		this.driver= driver;
@@ -81,7 +81,14 @@ public class RegisterPage {
 	}
 
 	public void ClickTermsofserviceLink() {
-	termsofservice.click();
+		termsofservice.click();
+		log.info("___________clicking on terms of service link__________");
+	}
+	
+	public String confirmWrongPassword() {
+		passwordDontMatch.getText();
+		log.info("___________Verified message showen while entering wrong password__________");
+		return wrongPasswordmatch;
 	}
 	
 	public void clickCreateAccLink()
@@ -96,10 +103,13 @@ public class RegisterPage {
 	
 	public void createAccount(String name, String pws)
 	{
-		email.clear();
-		email.sendKeys(name);
+		this.email.clear();
+		this.email.sendKeys(name);
 		password.clear();
-		password.sendKeys(pws);
+		this.password.sendKeys(pws);
+		if(!(pws=="")) {
+			passwordStreght.isDisplayed();
+		}
 		
 		if(CheckIAgreeTerms.isSelected())
 			{
@@ -108,6 +118,7 @@ public class RegisterPage {
 		
 		CheckIAgreeTerms.click();
 		CreateNewWallet.click();
+		
 	}
 	
 	public void confirmPassword(String pws) {
@@ -120,6 +131,7 @@ public class RegisterPage {
 		SaveWalletBkup.click();
 		bkupSecurely.click();
 		Continue.click();
+		log.info("___________Downloading the private key pdf__________");
 	}
 	
 	public void AllertCheck()
@@ -128,14 +140,12 @@ public class RegisterPage {
 		log.info("___________Verified Allert message__________");
 	}
 	public String checkEmailWaring() {
-		EnterEmailIDWarning.getText();
-		log.info("___________Verified email not entered message__________");
-		return HomeWalletPage;
+		log.info("___________Verified email not entered message while Singin In__________");
+		return EnterEmailIDWarning.getText();
 	}
 	public String checkPasswordwarning() {
-		EnterpasswordWarning.getText();
-		log.info("___________Verified password not entered message__________");
-		return HomeWalletPage;
+		log.info("___________Verified password not entered while creating Wallet message__________");
+		return EnterpasswordWarning.getText();
 	}
 	
 /*	public String emailErrorMsg ="Please enter your login details";
@@ -144,23 +154,37 @@ public class RegisterPage {
 	
 	public boolean verifyemailErrormesg() {
 		try {
-		//	driver.findElement(By.xpath("//div[contains(text(),'Please enter your login details')]")).isDisplayed();
 			EnterEmailIDWarning.isDisplayed();
+			log.info("___________Verified email varification message is shown__________");
 			return true;
 		} catch (Exception e) {
+			log.info("___________Verified email varification message is not shown__________");
 			return false;
 		}
 	}
 	
 	public boolean verifyPasswordErrormesg() {
 		try {
-		//	driver.findElement(By.xpath("//div[contains(text(),'Please enter your login details')]")).isDisplayed();
 			EnterpasswordWarning.isDisplayed();
+			log.info("___________Verified password varification message is shown__________");
 			return true;
 		} catch (Exception e) {
+			log.info("___________Verified password varification message is shown__________");
 			return false;
 		}
 	}
 	
+	public boolean passwordCrack() {
+		try {
+				passwordStreght.isDisplayed();
+				return true;
+			} catch (Exception e) {
+				return false;
+			}
+	}
+	public void log(String data){
+		log.info(data);
+		Reporter.log(data);
+	}
 	
 }

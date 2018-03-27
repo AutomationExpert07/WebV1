@@ -1,17 +1,72 @@
 package uiActions;
 
+import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
-public class HomePage {
-	public static final Logger log= Logger.getLogger(SignInPage.class.getName());
+import testBase.TestBase;
+
+public class HomePage extends TestBase{
+	public static final Logger log= Logger.getLogger(HomePage.class.getName());
 	WebDriver driver;
-	//homeURL = "https://wallet.btc.com/#/wallet";
+	
+	public String MywalletTitle ="Transactions";
+	public String sendpageTitle ="Send";
+	public String receivepageTitle ="Receive";
+	public String buyBCHpageTitle ="Buy Bitcoin Cash REGTEST";
+	public String buyBTCpageTitle ="Buy Bitcoin REGTEST";
+	public String settingpageTitle ="Settings";
+	
+	public String wrongPasswordmatch = "The passwords don't match";
+	
+/*	public String username="Sohaibcool10@gmail.com";
+	public String password="Hello@123";*/
+	public String settingURL = "http://wallet.btc.btccom-autotest.blocktrail.com/#/wallet/settings/profile";
+	
 	@FindBy(xpath="//a[contains(text(),'Logout')]")
 	WebElement Logout;
+
+	@FindBy(xpath="//h1[@class='ng-binding']")
+	WebElement availbleBitcoin;
+
+
+	@FindBy(xpath="//div[starts-with(@class,'wallets-list dropdown')]")
+	WebElement selectBTCorBCH;
+	
+	@FindBy(xpath="//h1[@class='pageTitle ng-binding']")
+	WebElement HomePageTitle;
+	
+	@FindBy(xpath="//small[@class='ng-binding']")
+	WebElement BTCequaltAmt;
+
+	public void SelectBTC() {
+		selectBTCorBCH.click();
+	}
+	
+	public double availbeBalance() {
+		String ShownBTC = availbleBitcoin.getText();
+		String arr[] = ShownBTC.split(" ", 2);
+
+		String firstStr = arr[0];  
+		String theRestStr = arr[1];    
+		double BeforeTransc = Double.parseDouble(firstStr);
+		log.info("Available Balnace" + BeforeTransc);
+		return BeforeTransc;
+	}
+	
+	public double BTCEqualentValue() {
+		String ActualAmount12 = BTCequaltAmt.getText();
+		String equalentamount = ActualAmount12.substring(1);
+		double equlBTC = Double.parseDouble(equalentamount);
+		log.info("Available equalent BTC Amount" + equlBTC);
+		return equlBTC;
+	}
 	
 	public HomePage(WebDriver driver) {
 		this.driver= driver;
@@ -26,7 +81,7 @@ public class HomePage {
 		Logout.isDisplayed();
 	}
 	
-	
-	
-	
+	public String getPageTitle() {
+		return HomePageTitle.getText();
+	}
 }
