@@ -1,8 +1,6 @@
 package btcTestSuite;
 
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
@@ -12,22 +10,16 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import data.TestData;
 import testBase.TestBase;
 import uiActions.HomePage;
-import uiActions.RegisterPage;
+import uiActions.SetUp_RegisterPage;
 
 public class TC_CreateWallet extends TestBase{
 	
-	RegisterPage registerpage;
+	SetUp_RegisterPage registerpage;
 	HomePage homePage;
-	String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-	String correctUsrNme = "sohaibcool@gmail.com";
-	String s="sohaibcool"+ timeStamp; 
-	String username="Sohaibcool"+timeStamp+"@gmail.com";
-	String password="Hello@123";
-	String JunkUserid ="so!#$%^&*!#$%^&*:@?uyfgwuihfwefhpowefhjpewhfpiwhfpowehfpoweihfowehifo;weifhpioef@blocktrail.com";
-	String blank="";
-	String confrimWrongPsw = "Yello@123";
+	TestData testData;
 	
 	@BeforeTest
 	public void setUp() throws IOException {
@@ -57,14 +49,15 @@ public class TC_CreateWallet extends TestBase{
 	@Test(priority=7)
 	public void createWallet() {
 		log.info("___________createing Wallet__________");
-		registerpage = new RegisterPage(driver);
+		registerpage = new SetUp_RegisterPage(driver);
 		registerpage.clickCreateAccLink();
-		registerpage.createAccount(username, password);
+		testData = new TestData(driver);
+		registerpage.createAccount(testData.username, testData.password);
 		//registerpage.passwordCrack();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		Assert.assertEquals(RegisterPage.registerURL, "https://wallet.btc.com/#/setup/register");
+		Assert.assertEquals(SetUp_RegisterPage.registerURL, "https://wallet.btc.com/#/setup/register");
 		log.info("_____________Register URL is been verified______________");
-		registerpage.confirmPassword(password);
+		registerpage.confirmPassword(testData.password);
 		registerpage.downloadWalletbkup();
 		Assert.assertEquals(registerpage.HomeWalletPage, "https://wallet.btc.com/#/wallet");
 		log.info("_____________Home URL is been verified______________");
@@ -75,11 +68,12 @@ public class TC_CreateWallet extends TestBase{
 	@Test(priority=1)
 	public void ConfirmWithWorngPassword() {
 		log.info("___________createing Wallet__________");
-		registerpage = new RegisterPage(driver);
+		registerpage = new SetUp_RegisterPage(driver);
 		registerpage.clickCreateAccLink();
-		registerpage.createAccount(username, password);
+		testData = new TestData(driver);
+		registerpage.createAccount(testData.username, testData.password);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		registerpage.confirmPassword(confrimWrongPsw);
+		registerpage.confirmPassword(testData.confrimWrongPsw);
 		Assert.assertEquals(registerpage.confirmWrongPassword(), "The passwords don't match");
 	}
 	
@@ -105,9 +99,9 @@ public class TC_CreateWallet extends TestBase{
 	@Test(priority=2)
 	public void withBlankUserID() {
 		log.info("___________createing Wallet with Blank User ID__________");
-		registerpage = new RegisterPage(driver);
+		registerpage = new SetUp_RegisterPage(driver);
 		registerpage.clickCreateAccLink();
-		registerpage.createAccount(blank, password);
+		registerpage.createAccount(testData.blank, testData.password);
 		registerpage.verifyemailErrormesg();
 	}
 
@@ -134,9 +128,9 @@ public class TC_CreateWallet extends TestBase{
 	@Test(priority=3)
 	public void withBlankPassword() {
 		log.info("___________createing Wallet with Blank Password__________");
-		registerpage = new RegisterPage(driver);
+		registerpage = new SetUp_RegisterPage(driver);
 		registerpage.clickCreateAccLink();
-		registerpage.createAccount(username, blank);
+		registerpage.createAccount(testData.username, testData.blank);
 		registerpage.verifyPasswordErrormesg();
 }
 	
@@ -163,9 +157,9 @@ public class TC_CreateWallet extends TestBase{
 	@Test(priority=4)
 	public void withBlankUserandPassword() {
 		log.info("___________createing Wallet with Blank User ID and Blank Password__________");
-		registerpage = new RegisterPage(driver);
+		registerpage = new SetUp_RegisterPage(driver);
 		registerpage.clickCreateAcc();
-		registerpage.createAccount(blank, blank);
+		registerpage.createAccount(testData.blank, testData.blank);
 		registerpage.verifyPasswordErrormesg();
 		registerpage.verifyPasswordErrormesg();
 }
@@ -194,9 +188,9 @@ public class TC_CreateWallet extends TestBase{
 	@Test(priority=5)
 	public void withJunkLongUserandPassword() {
 		log.info("___________createing Wallet with Speical Characters__________");
-		registerpage = new RegisterPage(driver);
+		registerpage = new SetUp_RegisterPage(driver);
 		registerpage.clickCreateAcc();
-		registerpage.createAccount(JunkUserid, password);
+		registerpage.createAccount(testData.JunkUserid, testData.password);
 		registerpage.verifyemailErrormesg();
 }
 	

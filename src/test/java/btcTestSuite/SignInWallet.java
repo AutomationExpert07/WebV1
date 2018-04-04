@@ -13,15 +13,15 @@ import org.testng.annotations.Test;
 
 import testBase.TestBase;
 import uiActions.HomePage;
-import uiActions.RegisterPage;
-import uiActions.SignInPage;
+import uiActions.SetUp_RegisterPage;
+import uiActions.SetUp_SignInPage;
 
 public class SignInWallet extends TestBase{
 	
-	RegisterPage registerpage;
-	SignInPage signInPage;
+	SetUp_RegisterPage registerpage;
+	SetUp_SignInPage signInPage;
 	HomePage homePage;
-	String username="Sohaibcool11@gmail.com";
+	String username="Sohaibcool10@gmail.com";
 	String password="Hello@123";
 	double Amount =1;
 	String xAddress ="2NCj5iUvuVxfWBNV64kGBeqHiNZBJEqqQtX";
@@ -36,7 +36,7 @@ public class SignInWallet extends TestBase{
 	
 	@Test(priority=7)
 	public void createWallet() throws InterruptedException {
-		signInPage = new SignInPage(driver);
+		signInPage = new SetUp_SignInPage(driver);
 		signInPage.SignIn(username, password);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		homePage = new HomePage(driver);
@@ -53,6 +53,7 @@ public class SignInWallet extends TestBase{
 		for(WebElement element:dd_menu)
 		{
 			//driver.findElement(By.xpath("//div[starts-with(@class,'wallets-list dropdown')]")).click();
+			Thread.sleep(3000L);
 			String innerhtml=element.getAttribute("innerHTML");
 			Thread.sleep(3000L);
 			innerhtml= innerhtml.trim();
@@ -110,7 +111,10 @@ public class SignInWallet extends TestBase{
 				
 				String ShownBTC = driver.findElement(By.xpath("//h1[@class='ng-binding']")).getText();
 				String ActualBTC = ShownBTC.replace("Bitcoin Cash REGTEST", "");
-				
+			//	driver.get("http://regtest-controls.btc.btccom-autotest.blocktrail.com/rBCH/generate-block");
+			//	driver.navigate().back();
+				Thread.sleep(2000L);
+
 			}
 			else if(innerhtml.contentEquals("Bitcoin REGTEST"))
 			{
@@ -154,8 +158,6 @@ public class SignInWallet extends TestBase{
 				driver.findElement(By.xpath("//input[@id='recipient']")).sendKeys(xAddress);
 				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 				driver.findElement(By.xpath("//input[@id='amount']")).sendKeys(Double.toString(Amount));
-				
-				
 				//driver.findElement(By.xpath("//input[@id='amount']")).sendKeys(Amount);
 				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 				
@@ -185,8 +187,9 @@ public class SignInWallet extends TestBase{
 				Assert.assertEquals(driver.findElement(By.xpath("//h4[contains(text(),' Transaction Sent.')]")).getText(),"Transaction Sent.");
 				driver.findElement(By.xpath("//input[@type='submit']")).click();
 				Thread.sleep(3000L);		
-				
-				
+			//	driver.get("http://regtest-controls.btc.btccom-autotest.blocktrail.com/rBTC/generate-block");
+			//	driver.navigate().back();
+				Thread.sleep(3000L);
 				String AfterTransactionBTC = driver.findElement(By.xpath("//h1[@class='ng-binding']")).getText();
 				String arr1[] = AfterTransactionBTC.split(" ", 2);
 
@@ -199,16 +202,18 @@ public class SignInWallet extends TestBase{
 				
 				double afterTransaction = BeforeTransc -(Amount +OptimalFee);
 				System.out.println("The Transaction after flow is "+ afterTransaction);
-				}
-			
+				}	
 		}
-		
 		log.info("_____________Home URL is been verified______________");
 	}
 
 	
 	@AfterClass
 	public void endTest() {
+		driver.get("http://regtest-controls.btc.btccom-autotest.blocktrail.com/rBTC/generate-block");
+		driver.get("http://regtest-controls.btc.btccom-autotest.blocktrail.com/rBCH/generate-block");
+		driver.navigate().back();
+		driver.navigate().back();
 		driver.quit();
 	}
 

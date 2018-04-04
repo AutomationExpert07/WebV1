@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LogoutPage {
 
-	public static final Logger log= Logger.getLogger(SignInPage.class.getName());
+	public static final Logger log= Logger.getLogger(SetUp_SignInPage.class.getName());
 	WebDriver driver;
 	
 	//div[@class='alert alert-success']

@@ -94,7 +94,7 @@ public class TestBase
 				// driver.register(eventListener);
 			} else if (browser.equals("firefox")) {
 				System.out.println(System.getProperty("user.dir"));
-				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/Driver/geckodriver.exe");
 				driver = new FirefoxDriver();
 				// driver = new EventFiringWebDriver(dr);
 				eventListener = new WebEventListener();
@@ -104,14 +104,14 @@ public class TestBase
 		} else if (System.getProperty("os.name").contains("Mac")) {
 			if (browser.equals("chrome")) {
 				System.out.println(System.getProperty("user.dir"));
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Driver/chromedriver");
 				driver = new ChromeDriver();
 				// driver = new EventFiringWebDriver(dr);
 				// eventListener = new WebEventListener();
 				// driver.register(eventListener);
 			} else if (browser.equals("firefox")) {
 				System.out.println(System.getProperty("user.dir"));
-				System.setProperty("webdriver.firefox.marionette", System.getProperty("user.dir") + "/drivers/geckodriver");
+				System.setProperty("webdriver.firefox.marionette", System.getProperty("user.dir") + "/Driver/geckodriver");
 				driver = new FirefoxDriver();
 				// driver = new EventFiringWebDriver(dr);
 				eventListener = new WebEventListener();

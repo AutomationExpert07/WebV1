@@ -7,9 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-public class RegisterPage {
+public class SetUp_RegisterPage {
 	
-	public static final Logger log= Logger.getLogger(RegisterPage.class.getName());
+	public static final Logger log= Logger.getLogger(SetUp_RegisterPage.class.getName());
 	WebDriver driver;
 	
 	public static final String registerURL = "https://wallet.btc.com/#/setup/register";
@@ -72,10 +72,12 @@ public class RegisterPage {
 	@FindBy(xpath="//div[@ng-if='errMsg']")
 	WebElement passwordDontMatch;
 	
+
+	
 	@FindBy(xpath="//span[@translate='PASSWORD_TIME_TO_CRACK' and contains(text(), 'estimated to take ')]")
 	WebElement passwordStreght;
 	
-	public RegisterPage(WebDriver driver) {
+	public SetUp_RegisterPage(WebDriver driver) {
 		this.driver= driver;
 		PageFactory.initElements(driver, this);
 	}
