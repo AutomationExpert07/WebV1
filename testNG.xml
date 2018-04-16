@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+<listeners>
+  <listener class-name="customListner.Listener"></listener>
+<!-- <listener class-name="customListner.RetryListener"></listener>  -->
+</listeners>
+
+
+  <test name="BTCcomTest">
+    <classes>
+<class name="btcTestSuite.CalculateExchangeRates"/>
+<class name="btcTestSuite.SignInWallet3"/>
+      <class name="btcTestSuite.TC_CreateWallet"/>
+<!--       <class name="btcTestSuite.SignInWallet"/>  -->
+<!--     <class name="btcTestSuite.SignInWallet2"/>  -->
+   
+   
+ <!--   <class name="btcTestSuite.PasswordRecovery"/> --> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

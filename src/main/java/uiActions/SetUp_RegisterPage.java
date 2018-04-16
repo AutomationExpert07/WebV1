@@ -1,5 +1,7 @@
 package uiActions;
 
+import java.io.File;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,7 +19,7 @@ public class SetUp_RegisterPage {
 	public final String HomeWalletPage = "https://wallet.btc.com/#/wallet";
 	public String emailErrorMsg ="Please enter your login details";
 	public String passwordErrorMsg = "Please enter your password";
-	public String IagreeNotSelected = "You must agree to the terms of service";
+	public String IagreeNotSelected = "You must agree to the termms of service";
 	public String termsOfServiceURL = "https://btc.com/legal";
 	public String wrongPasswordmatch = "The passwords don't match";
 	
@@ -187,6 +189,28 @@ public class SetUp_RegisterPage {
 	public void log(String data){
 		log.info(data);
 		Reporter.log(data);
+	}
+	
+	public void deletePwdPdf() {
+		//To Delete the existing File to avoiding naming conflicts 
+				try{
+				//	File file = new File("‪C:\\Users\\sohaibcool\\Downloads\\BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha.pdf");
+					File file = new File("C:\\Users\\sohaibcool\\Downloads\\BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha.pdf");
+					file.delete();
+						
+					if(!file.delete()){
+					//	System.out.println(file.getName() + " is deleted!");
+						log.info("___________Delete File Name.__________"+file.getName());
+					}else{
+						log.info("___________Delete operation is failed.__________");
+						//file.delete();
+					}
+				   
+				}catch(Exception e){
+					
+					e.printStackTrace();
+					
+				}
 	}
 	
 }

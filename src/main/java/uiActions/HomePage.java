@@ -14,14 +14,12 @@ public class HomePage extends TestBase{
 	public String MywalletTitle ="Transactions";
 	public String sendpageTitle ="Send";
 	public String receivepageTitle ="Receive";
-	public String buyBCHpageTitle ="Buy Bitcoin Cash REGTEST";
-	public String buyBTCpageTitle ="Buy Bitcoin REGTEST";
-	public String settingpageTitle ="Settings";
-	
+	public String buyBCHpageTitle ="Buy rBitcoin Cash";
+	public String buyBTCpageTitle ="Buy rBitcoin";
+	public String settingpageTitle ="Settings";	
+	public String SelectRBitcoin = "rBitcoin";
+	public String SelectRBitcoinCash = "rBitcoin Cash";	
 	public String wrongPasswordmatch = "The passwords don't match";
-	
-/*	public String username="Sohaibcool10@gmail.com";
-	public String password="Hello@123";*/
 	public String settingURL = "http://wallet.btc.btccom-autotest.blocktrail.com/#/wallet/settings/profile";
 	
 	@FindBy(xpath="//a[contains(text(),'Logout')]")

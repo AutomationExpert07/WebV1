@@ -59,7 +59,9 @@ public class TC_CreateWallet extends TestBase{
 		log.info("_____________Register URL is been verified______________");
 		registerpage.confirmPassword(testData.password);
 		registerpage.downloadWalletbkup();
+		registerpage.deletePwdPdf();
 		Assert.assertEquals(registerpage.HomeWalletPage, "https://wallet.btc.com/#/wallet");
+		
 		log.info("_____________Home URL is been verified______________");
 		homePage = new HomePage(driver);
 		homePage.Logout();

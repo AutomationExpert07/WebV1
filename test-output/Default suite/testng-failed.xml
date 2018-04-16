@@ -5,11 +5,7 @@
     <classes>
       <class name="btcTestSuite.TC_CreateWallet">
         <methods>
-          <include name="withJunkLongUserandPassword"/>
-          <include name="withBlankPassword"/>
           <include name="afterMethod"/>
-          <include name="withBlankUserandPassword"/>
-          <include name="withBlankUserID"/>
           <include name="setUp"/>
           <include name="beforeMethod"/>
           <include name="ConfirmWithWorngPassword"/>

@@ -58,7 +58,7 @@ public class SignInWallet extends TestBase{
 			Thread.sleep(3000L);
 			innerhtml= innerhtml.trim();
 			Thread.sleep(3000L);
-			if(innerhtml.contentEquals("Bitcoin Cash REGTEST"))
+			if(innerhtml.contentEquals(homePage.SelectRBitcoinCash))
 			{
 				//element.toString();
 				Thread.sleep(5000L);
@@ -116,7 +116,7 @@ public class SignInWallet extends TestBase{
 				Thread.sleep(2000L);
 
 			}
-			else if(innerhtml.contentEquals("Bitcoin REGTEST"))
+			else if(innerhtml.contentEquals(homePage.SelectRBitcoin))
 			{
 				//element.toString();	
 				element.click();
