@@ -9669,3 +9669,70 @@ suggest gauge final coin lawn round enrich beauty gloom demise enjoy
 2018-04-16 16:03:52 INFO  Menu_SendPage:138 - Confirming the password to send the BitCoin to recipient address 
 2018-04-16 16:03:54 INFO  HomePage:52 - Available Balnace529.9995974
 2018-04-16 16:03:54 INFO  SignInWallet3:198 - Well Done...!!
+2018-04-16 18:27:18 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-04-16 18:27:21 INFO  SignInWallet3:41 - initialzing all the variable and methods
+2018-04-16 18:27:23 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-04-16 18:27:25 INFO  TestBase:26 - initialzing all the variable and methods
+2018-04-16 18:27:27 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-04-16 18:27:30 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-04-16 18:27:31 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-04-16 18:27:37 INFO  CalculateExchangeRates:120 - _____________At Home Page______________
+2018-04-16 18:27:38 INFO  Menu_SendPage:118 - Converted Amount for the Selected Currecy type is $ 10000.11
+2018-04-16 18:27:39 INFO  Menu_SendPage:118 - Converted Amount for the Selected Currecy type is £ 50000.55
+2018-04-16 18:27:39 INFO  CalculateExchangeRates:153 - _____________At Home Page______________£ 50000.55
+2018-04-16 18:27:40 INFO  Menu_SendPage:118 - Converted Amount for the Selected Currecy type is € 9000.99
+2018-04-16 18:27:47 INFO  CalculateExchangeRates:65 - _____________At Home Page______________
+2018-04-16 18:27:47 INFO  Menu_SendPage:118 - Converted Amount for the Selected Currecy type is $ 1000.01
+2018-04-16 18:27:48 INFO  Menu_SendPage:118 - Converted Amount for the Selected Currecy type is £ 5000.06
+2018-04-16 18:27:49 INFO  Menu_SendPage:118 - Converted Amount for the Selected Currecy type is € 900.1
+2018-04-16 18:27:50 INFO  TestBase:72 - ___________createing Wallet__________
+2018-04-16 18:27:51 INFO  SetUp_RegisterPage:94 - ___________Verified message showen while entering wrong password__________
+2018-04-16 18:27:51 INFO  TestBase:103 - ___________createing Wallet with Blank User ID__________
+2018-04-16 18:27:52 INFO  SetUp_RegisterPage:162 - ___________Verified email varification message is shown__________
+2018-04-16 18:27:52 INFO  TestBase:132 - ___________createing Wallet with Blank Password__________
+2018-04-16 18:27:52 INFO  SetUp_RegisterPage:173 - ___________Verified password varification message is shown__________
+2018-04-16 18:27:52 INFO  TestBase:161 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-04-16 18:27:53 INFO  SetUp_RegisterPage:173 - ___________Verified password varification message is shown__________
+2018-04-16 18:27:53 INFO  SetUp_RegisterPage:173 - ___________Verified password varification message is shown__________
+2018-04-16 18:27:53 INFO  TestBase:192 - ___________createing Wallet with Speical Characters__________
+2018-04-16 18:27:58 INFO  SetUp_RegisterPage:165 - ___________Verified email varification message is not shown__________
+2018-04-16 18:27:58 INFO  TestBase:204 - ___________Checking the link is navigating to right page__________
+2018-04-16 18:27:58 INFO  SetUp_RegisterPage:89 - ___________clicking on terms of service link__________
+2018-04-16 18:28:00 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-04-16 18:28:01 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-04-16 18:28:11 INFO  SignInWallet3:104 - =============Values from dropdonw is rBitcoin
+2018-04-16 18:28:13 INFO  SignInWallet3:110 - Verified both, the URL and Page title for MyWallet
+2018-04-16 18:28:14 INFO  SignInWallet3:116 - Verified both, the URL and Page title for SendMenu
+2018-04-16 18:28:14 INFO  SignInWallet3:121 - Verified both, the URL and Page title for receive page
+2018-04-16 18:28:14 INFO  Menu_BuyPage:27 - Clicked on Buy Menu
+2018-04-16 18:28:14 INFO  SignInWallet3:126 - Verified both, the URL and Page title for Buy Menu
+2018-04-16 18:28:14 INFO  SignInWallet3:131 - Verified both, the URL and Page title for Setting Page
+2018-04-16 18:28:21 INFO  SignInWallet3:70 - =============Values from dropdonw is rBitcoin Cash
+2018-04-16 18:28:23 INFO  SignInWallet3:76 - Verified both, the URL and Page title for MyWallet
+2018-04-16 18:28:24 INFO  SignInWallet3:82 - Verified both, the URL and Page title for SendMenu
+2018-04-16 18:28:24 INFO  SignInWallet3:87 - Verified both, the URL and Page title for receive page
+2018-04-16 18:28:24 INFO  Menu_BuyPage:27 - Clicked on Buy Menu
+2018-04-16 18:28:24 INFO  SignInWallet3:92 - Verified both, the URL and Page title for Buy Menu
+2018-04-16 18:28:24 INFO  SignInWallet3:97 - Verified both, the URL and Page title for Setting Page
+2018-04-16 18:28:24 INFO  TestBase:51 - ___________createing Wallet__________
+2018-04-16 18:28:25 INFO  TestBase:59 - _____________Register URL is been verified______________
+2018-04-16 18:28:28 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-04-16 18:28:28 INFO  SetUp_RegisterPage:203 - ___________Delete File Name.__________BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha.pdf
+2018-04-16 18:28:28 INFO  TestBase:65 - _____________Home URL is been verified______________
+2018-04-16 18:28:36 INFO  HomePage:35 - Available equalent BTC Amountbchreg:pqs8jyjksu93p2fes5gsjy4n43jhp4mypgntzs3fq5
+2018-04-16 18:28:36 INFO  SignInWallet3:154 - The Bitcoin Address genereated is bchreg:pqs8jyjksu93p2fes5gsjy4n43jhp4mypgntzs3fq5
+2018-04-16 18:28:43 INFO  Menu_SendPage:107 - Optimal Amount is0.00003660 rBCH
+2018-04-16 18:28:43 INFO  Menu_SendPage:109 - Optimal Amount after removeing rBCH0.00003660
+2018-04-16 18:28:43 INFO  Menu_SendPage:111 - The Optimal Fee for the 1.0 is 3.66E-5
+2018-04-16 18:28:46 INFO  Menu_SendPage:129 - The transaction is completed and a confirmation message true
+2018-04-16 18:28:47 INFO  Menu_SendPage:138 - Confirming the password to send the BitCoin to recipient address 
+2018-04-16 18:28:48 INFO  HomePage:52 - Available Balnace79.9993974
+2018-04-16 18:28:57 INFO  HomePage:35 - Available equalent BTC Amount2NBeSmcsmjDWHK3Lic5rP3HChaFpYXedeqT
+2018-04-16 18:28:57 INFO  SignInWallet3:181 - The Bitcoin Address genereated is 2NBeSmcsmjDWHK3Lic5rP3HChaFpYXedeqT
+2018-04-16 18:29:04 INFO  Menu_SendPage:95 - Optimal Amount is0.00003660 rBTC
+2018-04-16 18:29:04 INFO  Menu_SendPage:97 - Optimal Amount after removeing rBTC0.00003660
+2018-04-16 18:29:04 INFO  Menu_SendPage:99 - The Optimal Fee for the 1.0 is 3.66E-5
+2018-04-16 18:29:07 INFO  Menu_SendPage:129 - The transaction is completed and a confirmation message true
+2018-04-16 18:29:08 INFO  Menu_SendPage:138 - Confirming the password to send the BitCoin to recipient address 
+2018-04-16 18:29:09 INFO  HomePage:52 - Available Balnace528.9995608
+2018-04-16 18:29:09 INFO  SignInWallet3:198 - Well Done...!!

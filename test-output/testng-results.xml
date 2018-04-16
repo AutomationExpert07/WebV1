@@ -1,17 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-04-16T14:02:45Z" name="Default suite" finished-at="2018-04-16T14:03:55Z" duration-ms="70363">
+  <suite started-at="2018-04-16T16:27:15Z" name="Regression Suite" finished-at="2018-04-16T16:29:11Z" duration-ms="115316">
     <groups>
     </groups>
-    <test started-at="2018-04-16T14:02:45Z" name="Default test" finished-at="2018-04-16T14:03:55Z" duration-ms="70363">
-      <class name="btcTestSuite.SignInWallet3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:btcTestSuite.SignInWallet3@5fb759d6]" started-at="2018-04-16T16:02:45Z" name="setUp" finished-at="2018-04-16T16:02:50Z" duration-ms="5469" status="PASS">
+    <test started-at="2018-04-16T16:27:15Z" name="BTCcomTest" finished-at="2018-04-16T16:29:11Z" duration-ms="115316">
+      <class name="btcTestSuite.TC_CreateWallet">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:50Z" name="beforeMethod" finished-at="2018-04-16T18:27:50Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void btcTestSuite.TC_CreateWallet.ConfirmWithWorngPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ConfirmWithWorngPassword()[pri:1, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:50Z" name="ConfirmWithWorngPassword" finished-at="2018-04-16T18:27:51Z" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmWithWorngPassword -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:51Z" name="beforeMethod" finished-at="2018-04-16T18:27:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void btcTestSuite.TC_CreateWallet.withBlankUserID()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:51Z" name="afterMethod" finished-at="2018-04-16T18:27:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConfirmWithWorngPassword status=SUCCESS method=TC_CreateWallet.ConfirmWithWorngPassword()[pri:1, instance:btcTestSuite.TC_CreateWallet@30f842ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="withBlankUserID()[pri:2, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:51Z" name="withBlankUserID" finished-at="2018-04-16T18:27:52Z" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withBlankUserID -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:52Z" name="afterMethod" finished-at="2018-04-16T18:27:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=withBlankUserID status=SUCCESS method=TC_CreateWallet.withBlankUserID()[pri:2, instance:btcTestSuite.TC_CreateWallet@30f842ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:52Z" name="beforeMethod" finished-at="2018-04-16T18:27:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void btcTestSuite.TC_CreateWallet.withBlankPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="withBlankPassword()[pri:3, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:52Z" name="withBlankPassword" finished-at="2018-04-16T18:27:52Z" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withBlankPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:52Z" name="afterMethod" finished-at="2018-04-16T18:27:52Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=withBlankPassword status=SUCCESS method=TC_CreateWallet.withBlankPassword()[pri:3, instance:btcTestSuite.TC_CreateWallet@30f842ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:52Z" name="beforeMethod" finished-at="2018-04-16T18:27:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void btcTestSuite.TC_CreateWallet.withBlankUserandPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="withBlankUserandPassword()[pri:4, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:52Z" name="withBlankUserandPassword" finished-at="2018-04-16T18:27:53Z" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withBlankUserandPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:53Z" name="afterMethod" finished-at="2018-04-16T18:27:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=withBlankUserandPassword status=SUCCESS method=TC_CreateWallet.withBlankUserandPassword()[pri:4, instance:btcTestSuite.TC_CreateWallet@30f842ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="withJunkLongUserandPassword()[pri:5, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:53Z" name="withJunkLongUserandPassword" finished-at="2018-04-16T18:27:58Z" duration-ms="5750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withJunkLongUserandPassword -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:53Z" name="beforeMethod" finished-at="2018-04-16T18:27:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void btcTestSuite.TC_CreateWallet.withJunkLongUserandPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:58Z" name="afterMethod" finished-at="2018-04-16T18:27:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=withJunkLongUserandPassword status=SUCCESS method=TC_CreateWallet.withJunkLongUserandPassword()[pri:5, instance:btcTestSuite.TC_CreateWallet@30f842ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="termsOfServiceLink()[pri:6, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:58Z" name="termsOfServiceLink" finished-at="2018-04-16T18:28:00Z" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termsOfServiceLink -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:58Z" name="beforeMethod" finished-at="2018-04-16T18:27:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void btcTestSuite.TC_CreateWallet.termsOfServiceLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:28:00Z" name="afterMethod" finished-at="2018-04-16T18:28:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=termsOfServiceLink status=SUCCESS method=TC_CreateWallet.termsOfServiceLink()[pri:6, instance:btcTestSuite.TC_CreateWallet@30f842ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:28:24Z" name="beforeMethod" finished-at="2018-04-16T18:28:24Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void btcTestSuite.TC_CreateWallet.createWallet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createWallet()[pri:7, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:28:24Z" name="createWallet" finished-at="2018-04-16T18:28:29Z" duration-ms="5598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWallet -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:28:29Z" name="afterMethod" finished-at="2018-04-16T18:28:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createWallet status=SUCCESS method=TC_CreateWallet.createWallet()[pri:7, instance:btcTestSuite.TC_CreateWallet@30f842ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:28:29Z" name="endTest" finished-at="2018-04-16T18:28:30Z" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- btcTestSuite.TC_CreateWallet -->
+      <class name="btcTestSuite.CalculateExchangeRates">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:btcTestSuite.CalculateExchangeRates@55de24cc]" started-at="2018-04-16T18:27:15Z" name="setUp" finished-at="2018-04-16T18:27:21Z" duration-ms="5269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.SignInWallet3@5fb759d6]" started-at="2018-04-16T16:02:50Z" name="beforeMethod" finished-at="2018-04-16T16:02:50Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:btcTestSuite.SignInWallet3@dc7df28]" started-at="2018-04-16T18:27:21Z" name="setUp" finished-at="2018-04-16T18:27:25Z" duration-ms="4882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:btcTestSuite.TC_CreateWallet@30f842ca]" started-at="2018-04-16T18:27:25Z" name="setUp" finished-at="2018-04-16T18:27:30Z" duration-ms="4745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.CalculateExchangeRates@55de24cc]" started-at="2018-04-16T18:27:30Z" name="beforeMethod" finished-at="2018-04-16T18:27:30Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void btcTestSuite.CalculateExchangeRates.checkExchange() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkExchange()[pri:0, instance:btcTestSuite.CalculateExchangeRates@55de24cc]" started-at="2018-04-16T18:27:30Z" name="checkExchange" finished-at="2018-04-16T18:27:49Z" duration-ms="18429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExchange -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.CalculateExchangeRates@55de24cc]" started-at="2018-04-16T18:27:49Z" name="afterMethod" finished-at="2018-04-16T18:27:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkExchange status=SUCCESS method=CalculateExchangeRates.checkExchange()[pri:0, instance:btcTestSuite.CalculateExchangeRates@55de24cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:btcTestSuite.CalculateExchangeRates@55de24cc]" started-at="2018-04-16T18:27:49Z" name="endTest" finished-at="2018-04-16T18:27:50Z" duration-ms="1733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- btcTestSuite.CalculateExchangeRates -->
+      <class name="btcTestSuite.SignInWallet3">
+        <test-method signature="checkPageHeadingandURL()[pri:7, instance:btcTestSuite.SignInWallet3@dc7df28]" started-at="2018-04-16T18:28:00Z" name="checkPageHeadingandURL" finished-at="2018-04-16T18:28:24Z" duration-ms="23832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageHeadingandURL -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.SignInWallet3@dc7df28]" started-at="2018-04-16T18:28:00Z" name="beforeMethod" finished-at="2018-04-16T18:28:00Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,22 +254,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkPageHeadingandURL()[pri:7, instance:btcTestSuite.SignInWallet3@5fb759d6]" started-at="2018-04-16T16:02:50Z" name="checkPageHeadingandURL" finished-at="2018-04-16T16:03:14Z" duration-ms="24204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkPageHeadingandURL -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.SignInWallet3@5fb759d6]" started-at="2018-04-16T16:03:14Z" name="afterMethod" finished-at="2018-04-16T16:03:14Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.SignInWallet3@dc7df28]" started-at="2018-04-16T18:28:24Z" name="afterMethod" finished-at="2018-04-16T18:28:24Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkPageHeadingandURL status=SUCCESS method=SignInWallet3.checkPageHeadingandURL()[pri:7, instance:btcTestSuite.SignInWallet3@5fb759d6] output={null}]]]>
+                <![CDATA[[TestResult name=checkPageHeadingandURL status=SUCCESS method=SignInWallet3.checkPageHeadingandURL()[pri:7, instance:btcTestSuite.SignInWallet3@dc7df28] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.SignInWallet3@5fb759d6]" started-at="2018-04-16T16:03:14Z" name="beforeMethod" finished-at="2018-04-16T16:03:14Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:btcTestSuite.SignInWallet3@dc7df28]" started-at="2018-04-16T18:28:30Z" name="beforeMethod" finished-at="2018-04-16T18:28:30Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,26 +276,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="trasactionVerify1234()[pri:10, instance:btcTestSuite.SignInWallet3@5fb759d6]" started-at="2018-04-16T16:03:14Z" name="trasactionVerify1234" finished-at="2018-04-16T16:03:54Z" duration-ms="39129" status="PASS">
+        <test-method signature="trasactionVerify1234()[pri:10, instance:btcTestSuite.SignInWallet3@dc7df28]" started-at="2018-04-16T18:28:30Z" name="trasactionVerify1234" finished-at="2018-04-16T18:29:09Z" duration-ms="38879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trasactionVerify1234 -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.SignInWallet3@5fb759d6]" started-at="2018-04-16T16:03:54Z" name="afterMethod" finished-at="2018-04-16T16:03:54Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:btcTestSuite.SignInWallet3@dc7df28]" started-at="2018-04-16T18:29:09Z" name="afterMethod" finished-at="2018-04-16T18:29:09Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=trasactionVerify1234 status=SUCCESS method=SignInWallet3.trasactionVerify1234()[pri:10, instance:btcTestSuite.SignInWallet3@5fb759d6] output={null}]]]>
+                <![CDATA[[TestResult name=trasactionVerify1234 status=SUCCESS method=SignInWallet3.trasactionVerify1234()[pri:10, instance:btcTestSuite.SignInWallet3@dc7df28] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:btcTestSuite.SignInWallet3@5fb759d6]" started-at="2018-04-16T16:03:54Z" name="endTest" finished-at="2018-04-16T16:03:55Z" duration-ms="1532" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:btcTestSuite.SignInWallet3@dc7df28]" started-at="2018-04-16T18:29:09Z" name="endTest" finished-at="2018-04-16T18:29:11Z" duration-ms="1514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- btcTestSuite.SignInWallet3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- BTCcomTest -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
