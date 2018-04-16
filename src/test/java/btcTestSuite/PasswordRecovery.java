@@ -72,7 +72,6 @@ public class PasswordRecovery extends TestBase{
 		}
 		document.close();
 		registerpage.deletePwdPdf();
-	
 		log.info("_____________At Home Page______________");
 		settingpage = new Menu_SettingPage(driver);
 		settingpage.clickSetting();
@@ -111,7 +110,6 @@ public class PasswordRecovery extends TestBase{
 		forgotPassword.encryptedRecoverySecret(ers1);
 		Thread.sleep(2000L);
 		forgotPassword.clickContinue();
-		
 		forgotPassword.newPassword(forgotPassword.newPassword);
 		forgotPassword.newPasswordConfirm(forgotPassword.newPassword);
 		forgotPassword.clickContinue();
@@ -123,7 +121,6 @@ public class PasswordRecovery extends TestBase{
 		signInPage = new SetUp_SignInPage(driver);
 		signInPage.SignIn(UniqueEmailID, testData.password);
 	//	registerpage.confirmPassword(confrimWrongPsw);
-		
 		Assert.assertEquals(signInPage.IncorrectLogin(), "Incorrect login details");
 		signInPage.SignIn(UniqueEmailID, testData.NewPassword);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
