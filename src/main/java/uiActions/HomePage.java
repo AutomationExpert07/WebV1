@@ -45,7 +45,6 @@ public class HomePage extends TestBase{
 	public double availbeBalance() {
 		String ShownBTC = availbleBitcoin.getText();
 		String arr[] = ShownBTC.split(" ", 2);
-
 		String firstStr = arr[0];  
 		String theRestStr = arr[1];    
 		double BeforeTransc = Double.parseDouble(firstStr);

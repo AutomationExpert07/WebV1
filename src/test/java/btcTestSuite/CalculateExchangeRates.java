@@ -71,14 +71,17 @@ public class CalculateExchangeRates extends TestBase{
 				System.out.println(Currency.get(1).getText());
 				Currency.get(1).click();
 				driver.findElement(By.xpath("//button[contains(text(),'Save Settings')]")).click();
-				
+				Thread.sleep(2000L);
 				sendpage = new Menu_SendPage(driver);
 				sendpage.ClickSendwithoutMessage();
 			//	sendpage.ClickSendMenu();
+				Thread.sleep(2000L);
 				sendpage.RecipientAdd(testData.xAddress);
 				sendpage.EnterAmount(testData.Amount);
+				Thread.sleep(2000L);
 				String convertedAmt = sendpage.CovertedCurrecyAmount();
 				System.out.println(convertedAmt);
+				Thread.sleep(2000L);
 				Assert.assertEquals(convertedAmt, "$ 1000.01");
 				
 				

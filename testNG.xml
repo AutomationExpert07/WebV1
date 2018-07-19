@@ -9,14 +9,13 @@
 
   <test name="BTCcomTest">
     <classes>
-<class name="btcTestSuite.CalculateExchangeRates"/>
-<class name="btcTestSuite.SignInWallet3"/>
-      <class name="btcTestSuite.TC_CreateWallet"/>
-<!--       <class name="btcTestSuite.SignInWallet"/>  -->
-<!--     <class name="btcTestSuite.SignInWallet2"/>  -->
-   
-   
- <!--   <class name="btcTestSuite.PasswordRecovery"/> --> 
+		<class name="btcTestSuite.CalculateExchangeRates"/>
+		<class name="btcTestSuite.SignInWallet3"/>
+     	<class name="btcTestSuite.TC_CreateWallet"/>
+     	<class name="btcTestSuite.PasswordRecovery"/>
+     	<class name="btcTestSuite.SignInWallet"/>
+<!--	<class name="btcTestSuite.ValidateExchangeRates"/>  -->
+<!--    <class name="btcTestSuite.SignInWallet2"/>  -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

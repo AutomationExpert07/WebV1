@@ -66,7 +66,7 @@ public class Listener extends TestBase implements ITestListener{
 
 	public void onTestSuccess(ITestResult arg0) {
 
-		/*if(arg0.isSuccess()){
+		if(arg0.isSuccess()){
 			Calendar calendar = Calendar.getInstance();
 			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 			
@@ -74,7 +74,7 @@ public class Listener extends TestBase implements ITestListener{
 
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			try {
-				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/BTCcom/";
+				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/BTCcom/";;
 				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
 				
 				FileUtils.copyFile(scrFile, destFile);
@@ -84,7 +84,7 @@ public class Listener extends TestBase implements ITestListener{
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-		}*/
+		}
 
 }
 }

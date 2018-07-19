@@ -15,7 +15,7 @@ public class Menu_SendPage extends TestBase{
 	SetUp_SignInPage signInPage;
 	public String xAddress = "2NCj5iUvuVxfWBNV64kGBeqHiNZBJEqqQtX";
 	public String SendURL = "http://wallet.btc.btccom-autotest.blocktrail.com/#/wallet/send";
-	public double Amount =1;
+	public double Amount =3;
 	public double OptimalFee1;
 	
 	@FindBy(xpath="//a[@ng-click='dismiss()']")
@@ -60,6 +60,9 @@ public class Menu_SendPage extends TestBase{
 	
 	@FindBy(xpath="//h1[@class='ng-binding']")
 	WebElement availbleBitcoin;
+	
+	@FindBy(xpath="//span[@translate-value-network='rBCH']")
+	WebElement rBCH;
 	
 	
 	public Menu_SendPage(WebDriver driver) {
@@ -125,7 +128,13 @@ public class Menu_SendPage extends TestBase{
 	
 	public boolean BTCSentConfirmationMessage() {
 		boolean ConfirmMessage = ckSentToRightID.getText().contains(xAddress);
+	//	log.info("send confirmation cointains the address"+ConfirmMessage);
 		Assert.assertTrue(ConfirmMessage);
+	//	String rBCHtext = rBCH.getAttribute("translate-value-network");	
+	//	log.info("The transaction is completed and a confirmation message " +rBCHtext);
+		
+	//	boolean ConfirmMessageBCH = ckSentToRightID.getText().contains((CharSequence) rBCH);
+	//	Assert.assertTrue(ConfirmMessageBCH);
 		log.info("The transaction is completed and a confirmation message " +ConfirmMessage);
 		return ConfirmMessage;
 	}

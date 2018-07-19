@@ -90,7 +90,8 @@ public class SignInWallet extends TestBase{
 				System.out.println("the address which i want to send is "+ BitcoinCashAddress);
 				driver.findElement(By.xpath("//span[contains(text(),'Send')]")).click();
 				Thread.sleep(3000L);
-				driver.findElement(By.xpath("//input[@id='recipient']")).sendKeys(xAddress);
+				driver.findElement(By.xpath("//input[@id='recipient']")).sendKeys(BitcoinCashAddress);
+				//driver.findElement(By.xpath("//input[@id='recipient']")).sendKeys(xAddress);
 				
 				Thread.sleep(3000L);
 				driver.findElement(By.xpath("//input[@id='amount']")).sendKeys(Double.toString(Amount));
@@ -154,8 +155,8 @@ public class SignInWallet extends TestBase{
 				System.out.println("the address which i want to send is "+ BitcoinCashAddress);
 				driver.findElement(By.xpath("//span[contains(text(),'Send')]")).click();
 				//Thread.sleep(3000L);
-				//driver.findElement(By.xpath("//input[@id='recipient']")).sendKeys(BitcoinCashAddress);
-				driver.findElement(By.xpath("//input[@id='recipient']")).sendKeys(xAddress);
+				driver.findElement(By.xpath("//input[@id='recipient']")).sendKeys(BitcoinCashAddress);
+				//driver.findElement(By.xpath("//input[@id='recipient']")).sendKeys(xAddress);
 				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 				driver.findElement(By.xpath("//input[@id='amount']")).sendKeys(Double.toString(Amount));
 				//driver.findElement(By.xpath("//input[@id='amount']")).sendKeys(Amount);
