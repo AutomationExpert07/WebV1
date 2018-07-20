@@ -6,15 +6,15 @@
   </listeners>
   <test name="BTCcomTest(failed)">
     <classes>
-      <class name="btcTestSuite.TC_CreateWallet">
+      <class name="btcTestSuite.CalculateExchangeRates">
         <methods>
-          <include name="afterMethod"/>
-          <include name="createWallet"/>
           <include name="setUp"/>
-          <include name="beforeMethod"/>
+          <include name="checkExchange"/>
+          <include name="afterMethod"/>
           <include name="endTest"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- btcTestSuite.TC_CreateWallet -->
+      </class> <!-- btcTestSuite.CalculateExchangeRates -->
     </classes>
   </test> <!-- BTCcomTest(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->
