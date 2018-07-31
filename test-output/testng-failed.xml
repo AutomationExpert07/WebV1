@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="customListner.Listener"/>
-  </listeners>
-  <test name="BTCcomTest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="btcTestSuite.CalculateExchangeRates">
+      <class name="btcTestSuite.SignInWallet">
         <methods>
-          <include name="setUp"/>
-          <include name="checkExchange"/>
-          <include name="afterMethod"/>
           <include name="endTest"/>
+          <include name="createWallet"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- btcTestSuite.CalculateExchangeRates -->
+      </class> <!-- btcTestSuite.SignInWallet -->
     </classes>
-  </test> <!-- BTCcomTest(failed) -->
-</suite> <!-- Failed suite [Regression Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

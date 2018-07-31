@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
   <listeners>
     <listener class-name="customListner.Listener"/>
   </listeners>
@@ -15,6 +15,33 @@
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- btcTestSuite.CalculateExchangeRates -->
+      <class name="btcTestSuite.SignInWallet">
+        <methods>
+          <include name="endTest"/>
+          <include name="createWallet"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- btcTestSuite.SignInWallet -->
+      <class name="btcTestSuite.PasswordRecovery">
+        <methods>
+          <include name="passwordRecovery"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- btcTestSuite.PasswordRecovery -->
+      <class name="btcTestSuite.SignInWallet3">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="trasactionVerify1234"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- btcTestSuite.SignInWallet3 -->
     </classes>
   </test> <!-- BTCcomTest(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

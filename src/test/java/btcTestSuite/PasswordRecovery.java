@@ -57,7 +57,8 @@ public class PasswordRecovery extends TestBase{
 		registerpage.downloadWalletbkup();
 		
 		//Read the Password recovery PDF file and extract the "Encrypted Recovery Secret" password
-		PDDocument document = PDDocument.load(new File("C:\\Users\\sohaibcool\\Downloads\\BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha.pdf"));
+		PDDocument document = PDDocument.load(new File("C:\\Users\\sohaib\\Downloads\\BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha.pdf"));
+		//PDDocument document = PDDocument.load(new File("C:\\Users\\sohaib\\Downloads\\BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha"));
 		if (!document.isEncrypted()) {
 		    PDFTextStripper stripper = new PDFTextStripper();
 		    String text = stripper.getText(document);

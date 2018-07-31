@@ -21419,3 +21419,271 @@ raise such glove clay lizard use bacon broom
 2018-07-20 11:07:15 INFO  Menu_SendPage:147 - Confirming the password to send the BitCoin to recipient address 
 2018-07-20 11:07:17 INFO  HomePage:51 - Available Balnace169.11184548
 2018-07-20 11:07:17 INFO  SignInWallet3:198 - Well Done...!!
+2018-07-26 11:27:18 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:27:22 INFO  TestBase:44 - initialzing all the variable and methods
+2018-07-26 11:27:24 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:27:27 INFO  TestBase:32 - initialzing all the variable and methods
+2018-07-26 11:27:28 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:27:31 INFO  SignInWallet3:41 - initialzing all the variable and methods
+2018-07-26 11:27:33 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:27:38 INFO  TestBase:26 - initialzing all the variable and methods
+2018-07-26 11:27:40 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:27:43 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-07-26 11:27:44 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-07-26 11:27:51 INFO  CalculateExchangeRates:123 - _____________At Home Page______________
+2018-07-26 11:27:52 INFO  Menu_SendPage:121 - Converted Amount for the Selected Currecy type is $ 10000.11
+2018-07-26 11:27:53 INFO  Menu_SendPage:121 - Converted Amount for the Selected Currecy type is £ 50000.55
+2018-07-26 11:27:53 INFO  CalculateExchangeRates:156 - _____________At Home Page______________£ 50000.55
+2018-07-26 11:27:54 INFO  Menu_SendPage:121 - Converted Amount for the Selected Currecy type is € 9000.99
+2018-07-26 11:28:01 INFO  CalculateExchangeRates:65 - _____________At Home Page______________
+2018-07-26 11:28:03 INFO  TestBase:51 - ___________createing Wallet__________
+2018-07-26 11:28:07 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-07-26 11:28:08 INFO  TestBase:72 - ___________createing Wallet__________
+2018-07-26 11:28:09 INFO  SetUp_RegisterPage:94 - ___________Verified message showen while entering wrong password__________
+2018-07-26 11:28:09 INFO  TestBase:103 - ___________createing Wallet with Blank User ID__________
+2018-07-26 11:28:09 INFO  SetUp_RegisterPage:162 - ___________Verified email varification message is shown__________
+2018-07-26 11:28:09 INFO  TestBase:132 - ___________createing Wallet with Blank Password__________
+2018-07-26 11:28:10 INFO  SetUp_RegisterPage:173 - ___________Verified password varification message is shown__________
+2018-07-26 11:28:10 INFO  TestBase:161 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-07-26 11:28:10 INFO  SetUp_RegisterPage:173 - ___________Verified password varification message is shown__________
+2018-07-26 11:28:10 INFO  SetUp_RegisterPage:173 - ___________Verified password varification message is shown__________
+2018-07-26 11:28:10 INFO  TestBase:192 - ___________createing Wallet with Speical Characters__________
+2018-07-26 11:28:16 INFO  SetUp_RegisterPage:165 - ___________Verified email varification message is not shown__________
+2018-07-26 11:28:16 INFO  TestBase:204 - ___________Checking the link is navigating to right page__________
+2018-07-26 11:28:16 INFO  SetUp_RegisterPage:89 - ___________clicking on terms of service link__________
+2018-07-26 11:28:17 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-07-26 11:28:18 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-07-26 11:28:30 INFO  SignInWallet3:104 - =============Values from dropdonw is rBitcoin
+2018-07-26 11:28:32 INFO  SignInWallet3:110 - Verified both, the URL and Page title for MyWallet
+2018-07-26 11:28:32 INFO  SignInWallet3:116 - Verified both, the URL and Page title for SendMenu
+2018-07-26 11:28:32 INFO  SignInWallet3:121 - Verified both, the URL and Page title for receive page
+2018-07-26 11:28:32 INFO  Menu_BuyPage:27 - Clicked on Buy Menu
+2018-07-26 11:28:32 INFO  SignInWallet3:126 - Verified both, the URL and Page title for Buy Menu
+2018-07-26 11:28:33 INFO  SignInWallet3:131 - Verified both, the URL and Page title for Setting Page
+2018-07-26 11:28:40 INFO  SignInWallet3:70 - =============Values from dropdonw is rBitcoin Cash
+2018-07-26 11:28:42 INFO  SignInWallet3:76 - Verified both, the URL and Page title for MyWallet
+2018-07-26 11:28:42 INFO  SignInWallet3:82 - Verified both, the URL and Page title for SendMenu
+2018-07-26 11:28:42 INFO  SignInWallet3:87 - Verified both, the URL and Page title for receive page
+2018-07-26 11:28:42 INFO  Menu_BuyPage:27 - Clicked on Buy Menu
+2018-07-26 11:28:42 INFO  SignInWallet3:92 - Verified both, the URL and Page title for Buy Menu
+2018-07-26 11:28:42 INFO  SignInWallet3:97 - Verified both, the URL and Page title for Setting Page
+2018-07-26 11:28:42 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-07-26 11:28:43 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-07-26 11:29:25 INFO  TestBase:51 - ___________createing Wallet__________
+2018-07-26 11:29:26 INFO  TestBase:59 - _____________Register URL is been verified______________
+2018-07-26 11:29:29 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-07-26 11:29:29 INFO  SetUp_RegisterPage:203 - ___________Delete File Name.__________BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha.pdf
+2018-07-26 11:29:29 INFO  TestBase:65 - _____________Home URL is been verified______________
+2018-07-26 11:29:38 INFO  HomePage:35 - Available equalent BTC Amountbchreg:przjgcyrkt4ezaa6jueg2223zpz4qdyydyu7ahdmks
+2018-07-26 11:29:38 INFO  SignInWallet3:154 - The Bitcoin Address genereated is bchreg:przjgcyrkt4ezaa6jueg2223zpz4qdyydyu7ahdmks
+2018-07-26 11:29:44 INFO  Menu_SendPage:110 - Optimal Amount is0.00003660 rBCH
+2018-07-26 11:29:44 INFO  Menu_SendPage:112 - Optimal Amount after removeing rBCH0.00003660
+2018-07-26 11:29:44 INFO  Menu_SendPage:114 - The Optimal Fee for the 3.0 is 3.66E-5
+2018-07-26 11:29:48 INFO  Menu_SendPage:138 - The transaction is completed and a confirmation message true
+2018-07-26 11:29:48 INFO  Menu_SendPage:147 - Confirming the password to send the BitCoin to recipient address 
+2018-07-26 11:45:28 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:45:31 INFO  TestBase:51 - ___________createing Wallet__________
+2018-07-26 11:45:34 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-07-26 11:47:40 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:47:45 INFO  TestBase:51 - ___________createing Wallet__________
+2018-07-26 11:47:49 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-07-26 11:48:35 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:48:39 INFO  TestBase:51 - ___________createing Wallet__________
+2018-07-26 11:48:42 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-07-26 11:51:00 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:51:03 INFO  TestBase:51 - ___________createing Wallet__________
+2018-07-26 11:51:07 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-07-26 11:51:38 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:51:41 INFO  TestBase:51 - ___________createing Wallet__________
+2018-07-26 11:51:45 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-07-26 11:51:45 WARN  FileSystemFontProvider:461 - New fonts found, font cache will be re-built
+2018-07-26 11:51:45 WARN  FileSystemFontProvider:224 - Building on-disk font cache, this may take a while
+2018-07-26 11:51:45 WARN  FileSystemFontProvider:227 - Finished building on-disk font cache, found 177 fonts
+2018-07-26 11:51:45 INFO  TestBase:65 - ___________Complete PDF :__________rBitcoin Wallet Recovery Data Sheet
+This document holds the information and instructions required for you to
+recover your BTC Wallet should anything happen. 
+Print it out and keep it in a safe location; if you lose these details you
+will never be able to recover your wallet.
+Wallet Identifier (v3)
+mywallet-shashashasha
+Backup Info
+Encrypted Primary Seed
+library eyebrow beef force rocket enjoy gallery smoke noodle amount abandon abuse
+river mom require feel balance estate always ski depend diesel frequent connect wing
+gather group hope winter mango alley punch odor aware delay artefact trade accident
+negative alcohol license simple share series boat current frost sense safe stuff
+street patient energy borrow crater board tooth twenty permit spread
+Backup Seed
+install noise now nephew recycle also narrow distance marriage miracle hawk analyst
+firm connect beauty age moon pony rebuild crush mango betray language great
+Encrypted Recovery Secret
+library father palm pistol absent pretty private cover enjoy session abandon ability
+social citizen claim diamond minor gym fiber sound crouch aerobic describe slide
+slide mimic butter rose sight liberty stereo bleak toward spread flat worry predict
+spirit cliff acquire reward picture extend tide silk race describe mistake output
+attitude such clarify version post keep vote kidney decrease decrease grape
+BTC Wallet Public Keys
+1 in total
+KeyIndex: 9999 Path: M/9999’
+Email
+Sohaibcool2018.07.26.11.51.41@gmail.com
+Support Secret
+this can be shared with helpdesk to proof ownership of backup document
+225358
+Backup Info - part 2
+This page needs to be replaced / updated when wallet password is changed!
+Password Encrypted Secret
+library festival angry fiber slam bulb today crime live session abandon achieve
+picture race where amateur lend ice base tilt marine cricket curious rural indoor
+habit unveil brick boost pear resource witness round kangaroo steak empty father
+october bone awkward humble gasp pink mail call fantasy toward two wedding able cave
+stage feed young spider carry rack congress monster soul
+Wallet Recovery Instructions
+You can recover the bitcoins in your wallet on https://recovery.blocktrail.com
+using this backup sheet.
+For a more technical aproach on how to recover your wallet yourself, see the
+’wallet_recovery_example.php’ script in the examples folder of the Blocktrail
+SDK.
+
+2018-07-26 11:51:45 INFO  TestBase:68 - ___________ERS pos:__________946
+2018-07-26 11:51:45 INFO  TestBase:69 - ___________pubkey pos:__________1386
+2018-07-26 11:51:45 INFO  TestBase:71 - _________Extracted Key is_____:
+library father palm pistol absent pretty private cover enjoy session abandon ability
+social citizen claim diamond minor gym fiber sound crouch aerobic describe slide
+slide mimic butter rose sight liberty stereo bleak toward spread flat worry predict
+spirit cliff acquire reward picture extend tide silk race describe mistake output
+attitude such clarify version post keep vote kidney decrease decrease grape
+2018-07-26 11:51:45 INFO  SetUp_RegisterPage:203 - ___________Delete File Name.__________BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha.pdf
+2018-07-26 11:51:45 INFO  TestBase:76 - _____________At Home Page______________
+2018-07-26 11:51:50 INFO  TestBase:82 - Unique Email id is :Sohaibcool2018.07.26.11.51.41@gmail.com
+2018-07-26 11:52:07 INFO  TestBase:109 - ___________Verifies the Revoery error message when wrong addresse is entered._____
+2018-07-26 11:52:14 INFO  TestBase:120 - ___________Verifies the Sucess message when after entering the Right Password recovery key._____
+2018-07-26 11:52:14 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-07-26 11:52:14 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-07-26 11:52:14 INFO  SetUp_SignInPage:74 - ___________Verified message showen while entering incorrect Credentials__________
+2018-07-26 11:52:16 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-07-26 11:52:16 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-07-26 11:52:19 INFO  TestBase:130 - ___________Verifies the Sucess Logging in with new password._____
+2018-07-26 11:52:54 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:52:57 INFO  TestBase:44 - initialzing all the variable and methods
+2018-07-26 11:52:59 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:53:02 INFO  TestBase:32 - initialzing all the variable and methods
+2018-07-26 11:53:04 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:53:07 INFO  SignInWallet3:41 - initialzing all the variable and methods
+2018-07-26 11:53:09 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:53:12 INFO  TestBase:26 - initialzing all the variable and methods
+2018-07-26 11:53:14 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:53:17 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-07-26 11:53:18 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-07-26 11:53:25 INFO  CalculateExchangeRates:123 - _____________At Home Page______________
+2018-07-26 11:53:26 INFO  Menu_SendPage:121 - Converted Amount for the Selected Currecy type is $ 10000.11
+2018-07-26 11:53:27 INFO  Menu_SendPage:121 - Converted Amount for the Selected Currecy type is £ 50000.55
+2018-07-26 11:53:27 INFO  CalculateExchangeRates:156 - _____________At Home Page______________£ 50000.55
+2018-07-26 11:53:27 INFO  Menu_SendPage:121 - Converted Amount for the Selected Currecy type is € 9000.99
+2018-07-26 11:53:34 INFO  CalculateExchangeRates:65 - _____________At Home Page______________
+2018-07-26 11:53:37 INFO  TestBase:51 - ___________createing Wallet__________
+2018-07-26 11:53:41 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-07-26 11:53:41 INFO  TestBase:65 - ___________Complete PDF :__________rBitcoin Wallet Recovery Data Sheet
+This document holds the information and instructions required for you to
+recover your BTC Wallet should anything happen. 
+Print it out and keep it in a safe location; if you lose these details you
+will never be able to recover your wallet.
+Wallet Identifier (v3)
+mywallet-shashashasha
+Backup Info
+Encrypted Primary Seed
+library eyebrow beef force rocket enjoy gallery smoke noodle amount abandon abuse
+river mom require feel balance estate always ski depend diesel frequent connect wing
+gather group hope winter mango alley punch odor aware delay artefact trade accident
+negative alcohol license simple share series boat current frost sense safe stuff
+street patient energy borrow crater board tooth twenty permit spread
+Backup Seed
+install noise now nephew recycle also narrow distance marriage miracle hawk analyst
+firm connect beauty age moon pony rebuild crush mango betray language great
+Encrypted Recovery Secret
+library father palm pistol absent pretty private cover enjoy session abandon ability
+social citizen claim diamond minor gym fiber sound crouch aerobic describe slide
+slide mimic butter rose sight liberty stereo bleak toward spread flat worry predict
+spirit cliff acquire reward picture extend tide silk race describe mistake output
+attitude such clarify version post keep vote kidney decrease decrease grape
+BTC Wallet Public Keys
+1 in total
+KeyIndex: 9999 Path: M/9999’
+Email
+Sohaibcool2018.07.26.11.51.41@gmail.com
+Support Secret
+this can be shared with helpdesk to proof ownership of backup document
+225358
+Backup Info - part 2
+This page needs to be replaced / updated when wallet password is changed!
+Password Encrypted Secret
+library festival angry fiber slam bulb today crime live session abandon achieve
+picture race where amateur lend ice base tilt marine cricket curious rural indoor
+habit unveil brick boost pear resource witness round kangaroo steak empty father
+october bone awkward humble gasp pink mail call fantasy toward two wedding able cave
+stage feed young spider carry rack congress monster soul
+Wallet Recovery Instructions
+You can recover the bitcoins in your wallet on https://recovery.blocktrail.com
+using this backup sheet.
+For a more technical aproach on how to recover your wallet yourself, see the
+’wallet_recovery_example.php’ script in the examples folder of the Blocktrail
+SDK.
+
+2018-07-26 11:53:41 INFO  TestBase:68 - ___________ERS pos:__________946
+2018-07-26 11:53:41 INFO  TestBase:69 - ___________pubkey pos:__________1386
+2018-07-26 11:53:41 INFO  TestBase:71 - _________Extracted Key is_____:
+library father palm pistol absent pretty private cover enjoy session abandon ability
+social citizen claim diamond minor gym fiber sound crouch aerobic describe slide
+slide mimic butter rose sight liberty stereo bleak toward spread flat worry predict
+spirit cliff acquire reward picture extend tide silk race describe mistake output
+attitude such clarify version post keep vote kidney decrease decrease grape
+2018-07-26 11:53:41 INFO  SetUp_RegisterPage:203 - ___________Delete File Name.__________BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha.pdf
+2018-07-26 11:53:41 INFO  TestBase:76 - _____________At Home Page______________
+2018-07-26 11:53:46 INFO  TestBase:82 - Unique Email id is :Sohaibcool2018.07.26.11.53.37@gmail.com
+2018-07-26 11:54:03 INFO  TestBase:109 - ___________Verifies the Revoery error message when wrong addresse is entered._____
+2018-07-26 11:54:18 INFO  TestBase:72 - ___________createing Wallet__________
+2018-07-26 11:54:19 INFO  SetUp_RegisterPage:94 - ___________Verified message showen while entering wrong password__________
+2018-07-26 11:54:19 INFO  TestBase:103 - ___________createing Wallet with Blank User ID__________
+2018-07-26 11:54:19 INFO  SetUp_RegisterPage:162 - ___________Verified email varification message is shown__________
+2018-07-26 11:54:19 INFO  TestBase:132 - ___________createing Wallet with Blank Password__________
+2018-07-26 11:54:20 INFO  SetUp_RegisterPage:173 - ___________Verified password varification message is shown__________
+2018-07-26 11:54:20 INFO  TestBase:161 - ___________createing Wallet with Blank User ID and Blank Password__________
+2018-07-26 11:54:20 INFO  SetUp_RegisterPage:173 - ___________Verified password varification message is shown__________
+2018-07-26 11:54:20 INFO  SetUp_RegisterPage:173 - ___________Verified password varification message is shown__________
+2018-07-26 11:54:20 INFO  TestBase:192 - ___________createing Wallet with Speical Characters__________
+2018-07-26 11:54:26 INFO  SetUp_RegisterPage:165 - ___________Verified email varification message is not shown__________
+2018-07-26 11:54:26 INFO  TestBase:204 - ___________Checking the link is navigating to right page__________
+2018-07-26 11:54:26 INFO  SetUp_RegisterPage:89 - ___________clicking on terms of service link__________
+2018-07-26 11:54:27 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-07-26 11:54:28 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-07-26 11:54:40 INFO  SignInWallet3:104 - =============Values from dropdonw is rBitcoin
+2018-07-26 11:54:42 INFO  SignInWallet3:110 - Verified both, the URL and Page title for MyWallet
+2018-07-26 11:54:42 INFO  SignInWallet3:116 - Verified both, the URL and Page title for SendMenu
+2018-07-26 11:54:42 INFO  SignInWallet3:121 - Verified both, the URL and Page title for receive page
+2018-07-26 11:54:42 INFO  Menu_BuyPage:27 - Clicked on Buy Menu
+2018-07-26 11:54:42 INFO  SignInWallet3:126 - Verified both, the URL and Page title for Buy Menu
+2018-07-26 11:54:42 INFO  SignInWallet3:131 - Verified both, the URL and Page title for Setting Page
+2018-07-26 11:54:50 INFO  SignInWallet3:70 - =============Values from dropdonw is rBitcoin Cash
+2018-07-26 11:54:52 INFO  SignInWallet3:76 - Verified both, the URL and Page title for MyWallet
+2018-07-26 11:54:52 INFO  SignInWallet3:82 - Verified both, the URL and Page title for SendMenu
+2018-07-26 11:54:52 INFO  SignInWallet3:87 - Verified both, the URL and Page title for receive page
+2018-07-26 11:54:52 INFO  Menu_BuyPage:27 - Clicked on Buy Menu
+2018-07-26 11:54:52 INFO  SignInWallet3:92 - Verified both, the URL and Page title for Buy Menu
+2018-07-26 11:54:52 INFO  SignInWallet3:97 - Verified both, the URL and Page title for Setting Page
+2018-07-26 11:54:52 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-07-26 11:54:53 INFO  SetUp_SignInPage:58 - ----------At home page-------------
+2018-07-26 11:55:35 INFO  TestBase:51 - ___________createing Wallet__________
+2018-07-26 11:55:36 INFO  TestBase:59 - _____________Register URL is been verified______________
+2018-07-26 11:55:39 INFO  SetUp_RegisterPage:138 - ___________Downloading the private key pdf__________
+2018-07-26 11:55:39 INFO  SetUp_RegisterPage:203 - ___________Delete File Name.__________BTC.com rBitcoin Wallet Recovery Backup Sheet - mywallet-shashashasha.pdf
+2018-07-26 11:55:39 INFO  TestBase:65 - _____________Home URL is been verified______________
+2018-07-26 11:55:48 INFO  HomePage:35 - Available equalent BTC Amountbchreg:prfwsqfw4a605p68kpglhy6p5hqc0gmepgr6vm978y
+2018-07-26 11:55:48 INFO  SignInWallet3:154 - The Bitcoin Address genereated is bchreg:prfwsqfw4a605p68kpglhy6p5hqc0gmepgr6vm978y
+2018-07-26 11:55:54 INFO  Menu_SendPage:110 - Optimal Amount is0.00003660 rBCH
+2018-07-26 11:55:54 INFO  Menu_SendPage:112 - Optimal Amount after removeing rBCH0.00003660
+2018-07-26 11:55:54 INFO  Menu_SendPage:114 - The Optimal Fee for the 3.0 is 3.66E-5
+2018-07-26 11:55:58 INFO  Menu_SendPage:138 - The transaction is completed and a confirmation message true
+2018-07-26 11:55:58 INFO  Menu_SendPage:147 - Confirming the password to send the BitCoin to recipient address 
+2018-07-26 11:58:10 INFO  TestBase:125 - navigating to :-http://wallet.btc.btccom-autotest.blocktrail.com
+2018-07-26 11:58:13 INFO  SetUp_SignInPage:52 - ----------Loggin Into BTC.com-------------
+2018-07-26 11:58:13 INFO  SetUp_SignInPage:58 - ----------At home page-------------

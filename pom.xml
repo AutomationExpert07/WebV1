@@ -10,11 +10,11 @@
   <name>BTCcom</name>
   <url>http://maven.apache.org</url>
 
-  <profiles>
+<!--   <profiles>
   <profile>
   <id>SmokeTesting</id>
-  
-  <build>
+   -->
+<!--   <build>
     <plugins>
   
       <plugin>
@@ -36,23 +36,30 @@
 							<value>${url}</value>
 						</property>
 					</systemPropertyVariables>
-					
-					
           <suiteXmlFiles>
-            <suiteXmlFile>BTCcomLastest/testNG.xml</suiteXmlFile>
+            <suiteXmlFile>testNG.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
    
 </plugins>
-</build>
-  </profile>
+</build> -->
+<!--   </profile>
   
   
   
   <profile>
   <id>RegressionTesting</id>
   
+
+  </profile>
+  </profiles> -->
+  
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <build>
     <plugins>
   
@@ -65,17 +72,9 @@
             <suiteXmlFile>testNG.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
-      </plugin>
-   
+      </plugin>  
 </plugins>
 </build>
-  </profile>
-  </profiles>
-  
-  
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
   <dependencies>
 <dependency>
@@ -133,8 +132,5 @@
     <version>2.0.8</version>
 </dependency>
 
-  </dependencies>
-  
-
-  
+  </dependencies>  
 </project>
